@@ -15,7 +15,7 @@
 Summary: Minarca Backup Server
 Name: minarca-server
 Version: 6.0.0b3
-Release: 15%{dist}
+Release: 16%{dist}
 Source0: minarca-server-6.0.0b3.tar.gz
 #Patch0: awx-patch.patch-%{version}
 License: GPLv3
@@ -77,6 +77,6 @@ mkdir -p /var/log/minarca
 
 
 %changelog
-* Fri Jun 28 2024 01:08:50 PM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 6.0.0b3
+* Fri Jun 28 2024 01:12:12 PM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 6.0.0b3
 - New version build: 6.0.0b3
 
