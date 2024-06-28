@@ -21,7 +21,7 @@ Url: https://minarca.org/
 Minarca is a self-hosted open source data backup software that allows you to manage your computer and server backups for free from a direct online accessible centralized view of your data with easy retrieval in case of displacement, loss or breakage.
 
 %prep
-%setup -n minarca-server
+%setup -n minarca
 
 %build
 python3.11 setup.py build
