@@ -1,18 +1,15 @@
 ## Latest build
-The lastest package built was minarca-server-6.0.0b3-19.el9.src.rpm
+The lastest package built was python-build-1.2.1-1.el9.src.rpm
 
-The build completed at Fri Jun 28 01:30:33 PM CEST 2024
+The build completed at Fri Jun 28 01:31:18 PM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/minarca-server-6.0.0b3-19.el9.src.rpm.log)
+[Build Log](logs/python-build-1.2.1-1.el9.src.rpm.log)
 ## Package build status for version: 6.0.0b3
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
-minarca-server-6.0.0b3-19.el9 | minarca-server-6.0.0b3-19.el9.src.rpm | **Missing** | [Log](logs/minarca-server-6.0.0b3-19.el9.src.rpm.log)
-minarca-server-6.0.0b3-20.el9 | minarca-server-6.0.0b3-20.el9.src.rpm | **Missing** | [Log](logs/minarca-server-6.0.0b3-20.el9.src.rpm.log)
-minarca-server-6.0.0b3-21.el9 | minarca-server-6.0.0b3-21.el9.src.rpm | **Missing** |
-python3.11-build-1.2.1-1.el9 | python-build-1.2.1-1.el9.src.rpm | **Missing** |
+python3.11-build-1.2.1-1.el9 | python-build-1.2.1-1.el9.src.rpm | **Missing** | [Log](logs/python-build-1.2.1-1.el9.src.rpm.log)
 python3.11-cachecontrol-0.14.0-1.el9 | python-cachecontrol-0.14.0-1.el9.src.rpm | **Missing** |
 python3.11-calver-2022.6.26-1.el9 | python-calver-2022.6.26-1.el9.src.rpm | Built | [Log](logs/python-calver-2022.6.26-1.el9.src.rpm.log)
 python3.11-cleo-2.1.0-1.el9 | python-cleo-2.1.0-1.el9.src.rpm | **Missing** |
@@ -35,4 +32,4 @@ python3.11-tomlkit-0.12.5-1.el9 | python-tomlkit-0.12.5-1.el9.src.rpm | **Missin
 python3.11-trove-classifiers-2024.5.22-1.el9 | python-trove-classifiers-2024.5.22-1.el9.src.rpm | Built | [Log](logs/python-trove-classifiers-2024.5.22-1.el9.src.rpm.log)
 python3.11-virtualenv-20.26.3-1.el9 | python-virtualenv-20.26.3-1.el9.src.rpm | **Missing** |
 
-25 total packages, 4 packages built successfully, 21 packages left to fix
+22 total packages, 4 packages built successfully, 18 packages left to fix
