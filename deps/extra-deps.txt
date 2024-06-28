@@ -35,3 +35,4 @@ cython
 hatch-fancy-pypi-readme
 distro
 cmake
+scikit-build-core
