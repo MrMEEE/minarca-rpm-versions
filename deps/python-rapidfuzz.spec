@@ -14,7 +14,7 @@ Source:         %{pypi_source rapidfuzz}
 
 
 BuildRequires:  python%{python3_pkgversion}-devel
-BuildRequires:  gcc
+BuildRequires:  gcc cmake
 
 
 # Fill in the actual package description to submit package to Fedora
