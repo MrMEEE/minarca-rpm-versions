@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-keyring
-Version:        25.2.1
+Version:        24.3.1
 Release:        %autorelease
 Summary:        Store and access your passwords safely.
 

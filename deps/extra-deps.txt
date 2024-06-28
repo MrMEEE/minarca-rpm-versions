@@ -46,3 +46,6 @@ secretstorage
 zipp
 more-itertools
 backports-tarfile
+dulwich==0.21.7
+24.3.1
+keyring==24.3.1

@@ -1,9 +1,8 @@
-%global debug_package %{nil}
 
 %global python3_pkgversion 3.11
 
 Name:           python-dulwich
-Version:        0.22.1
+Version:        0.21.7
 Release:        %autorelease
 Summary:        Python Git Library
 
@@ -29,16 +28,12 @@ Summary:        %{summary}
 
 %description -n python%{python3_pkgversion}-dulwich %_description
 
-# For official Fedora packages, review which extras should be actually packaged
-# See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
-
 
 %prep
 %autosetup -p1 -n dulwich-%{version}
 
 
 %generate_buildrequires
-# Keep only those extras which you actually want to package or use during tests
 %pyproject_buildrequires
 
 
