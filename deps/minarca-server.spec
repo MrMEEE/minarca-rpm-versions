@@ -15,7 +15,7 @@
 Summary: Minarca Backup Server
 Name: minarca-server
 Version: 6.0.0b3
-Release: 18%{dist}
+Release: 19%{dist}
 Source0: minarca-server-6.0.0b3.tar.gz
 #Patch0: awx-patch.patch-%{version}
 License: GPLv3
@@ -28,11 +28,17 @@ AutoReqProv: false
 
 #BuildRequires: make python%{python3_pkgversion} python%{python3_pkgversion}-devel nodejs npm gettext git python%{python3_pkgversion}-build rsync libpq libpq-devel 
 BuildRequires: python%{python3_pkgversion} python%{python3_pkgversion}-devel python%{python3_pkgversion}-poetry
-#BuildRequires: python3.11-poetry
+#BuildRequires: python3.11-calver = 2022.6.26
+BuildRequires: python3.11-packaging = 24.1
+BuildRequires: python3.11-trove-classifiers = 2024.5.22
+BuildRequires: python3.11-poetry
 
 
 #Requires: python%{python3_pkgversion} nodejs >= 18 npm gettext git nginx redis xmlsec1-openssl xmlsec1 podman sscg awx-receptor libpq 
-#
+#Requires: python3.11-calver = 2022.6.26
+Requires: python3.11-packaging = 24.1
+Requires: python3.11-trove-classifiers = 2024.5.22
+
 
 %{?systemd_requires}
 
@@ -46,11 +52,11 @@ BuildRequires: python%{python3_pkgversion} python%{python3_pkgversion}-devel pyt
 %build
 
 %install
-poetry install -E all --only-root
+#poetry install -E all --only-root
 
 mkdir -p /var/log/minarca
 
-#pip%{python3_pkgversion} install --root=%{buildroot}/ .
+pip%{python3_pkgversion} install --root=%{buildroot}/ .
 
 %pre
 /usr/bin/getent group %{service_group} >/dev/null || /usr/sbin/groupadd --system %{service_group}
@@ -76,6 +82,6 @@ mkdir -p /var/log/minarca
 
 
 %changelog
-* Fri Jun 28 2024 01:15:34 PM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 6.0.0b3
+* Fri Jun 28 2024 01:25:04 PM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 6.0.0b3
 - New version build: 6.0.0b3
 
