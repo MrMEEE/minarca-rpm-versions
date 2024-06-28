@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-hatch-fancy-pypi-readme-24.1.0-1.el9.src.rpm
+The lastest package built was python-scikit-build-0.17.6-1.el9.src.rpm
 
-The build completed at Fri Jun 28 05:22:53 PM CEST 2024
+The build completed at Fri Jun 28 05:23:45 PM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-hatch-fancy-pypi-readme-24.1.0-1.el9.src.rpm.log)
+[Build Log](logs/python-scikit-build-0.17.6-1.el9.src.rpm.log)
 ## Package build status for version: 6.0.0b3
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
