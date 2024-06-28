@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-trove-classifiers-2024.5.22-1.el9.src.rpm
+The lastest package built was minarca-server-6.0.0b3-13.el9.src.rpm
 
-The build completed at Fri Jun 28 01:21:21 PM CEST 2024
+The build completed at Fri Jun 28 01:22:44 PM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-trove-classifiers-2024.5.22-1.el9.src.rpm.log)
+[Build Log](logs/minarca-server-6.0.0b3-13.el9.src.rpm.log)
 ## Package build status for version: 6.0.0b3
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
