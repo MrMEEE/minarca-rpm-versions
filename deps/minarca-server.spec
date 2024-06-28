@@ -7,7 +7,7 @@
 Summary: Minarca Web Server
 Name: %{name}
 Version: 6.0.0b3
-Release: 3%{dist}
+Release: 4%{dist}
 Source0: %{name}-6.0.0b3.tar.gz
 License: UNKNOWN
 Group: Development/Libraries
@@ -31,7 +31,7 @@ python3.11 setup.py build
 %install
 cd minarca-server
 python3.11 setup.py install --single-version-externally-managed -O1 --root=$RPM_BUILD_ROOT --record=../INSTALLED_FILES
-mkdir -p $RPM_BUILD_ROOT/etc $RPM_BUILD_ROOT/usr/lib/systemd/system $RPM_BUILD_ROOT/opt/minarca-server/share
+mkdir -p $RPM_BUILD_ROOT/etc $RPM_BUILD_ROOT/usr/lib/systemd/system $RPM_BUILD_ROOT/opt/minarca-server/share $RPM_BUILD_ROOT/opt/minarca-server/bin
 cp debian/minarca-server.service $RPM_BUILD_ROOT/usr/lib/systemd/system
 cp -a data/etc/minarca $RPM_BUILD_ROOT/etc
 cp -a data/etc/sysctl.d $RPM_BUILD_ROOT/etc/
@@ -58,7 +58,7 @@ rm -rf $RPM_BUILD_ROOT
 %attr(root,root) /usr/lib/systemd/system/minarca-server.service
 %attr(root,root) /etc/sysctl.d/00-minarca-server-userns.conf
 
-* Fri Jun 28 2024 10:19:22 PM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 6.0.0b3
+* Fri Jun 28 2024 10:20:27 PM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 6.0.0b3
 - New version build: 6.0.0b3
 
 
