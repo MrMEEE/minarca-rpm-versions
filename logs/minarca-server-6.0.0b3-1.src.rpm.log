@@ -46,11 +46,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                                                                               [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETA/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                                                                                                                                                                                                                                   2.9 MB/s | 3.0 kB     00:00    
-/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                                                                               [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETA/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                                                                                                                                                                                                                                    20 kB/s | 257  B     00:00    
-Red Hat Enterprise Linux - BaseOS                                                                                                                      [   ===                                                                                                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                 100% [=================================================================================================================================================]  13 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                                                                                                                                           13 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                                                                                   [      ===                                                                                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                                                                                                                                        22 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     [         ===                                                                                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                100% [=================================================================================================================================================]  15 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                                                                                                                                          15 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                                                                                         [            ===                                                                                                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         [               ===                                                                                                                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                                                                                                              67 kB/s |  42 kB     00:00    
+/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                                                                               [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETA/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                                                                                                                                                                                                                                    13 kB/s | 257  B     00:00    
+Red Hat Enterprise Linux - BaseOS                                                                                                                      [   ===                                                                                                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                                                                                                                                           15 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                                                                                                   [      ===                                                                                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                              100% [=================================================================================================================================================] 7.2 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                                                                                                                                                                                                                                                       7.2 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     [         ===                                                                                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                                                                                                                                          18 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                                                                                         [            ===                                                                                                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         [               ===                                                                                                                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         [                  ===                                                                                                                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                                                                                                              38 kB/s |  42 kB     00:01    
 Dependencies resolved.
 ===========================================================================================================================================================================================================================================================================================================================================
  Package                                                                                    Architecture                                                          Version                                                                           Repository                                                                        Size
@@ -175,202 +175,500 @@ Finish: Outputting list of installed packages
 Start: rpmbuild minarca-server-6.0.0b3-1.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.wUxZoU
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.AP3iaU
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
 + rm -rf minarca-server
 + /usr/bin/gzip -dc /builddir/build/SOURCES/minarca-server-6.0.0b3.tar.gz
 + /usr/bin/tar -xvvof -
-drwxr-xr-x root/root         0 2024-06-28 20:49 minarca-server/
--rw-r--r-- root/root        16 2024-06-28 11:55 minarca-server/.gitignore
--rw-r--r-- root/root       197 2024-06-28 11:55 minarca-server/MANIFEST.in
-drwxr-xr-x root/root         0 2024-06-28 11:55 minarca-server/data/
-drwxr-xr-x root/root         0 2024-06-28 11:55 minarca-server/data/etc/
-drwxr-xr-x root/root         0 2024-06-28 11:55 minarca-server/data/etc/minarca/
-drwxr-xr-x root/root         0 2024-06-28 11:55 minarca-server/data/etc/minarca/conf.d/
--rw-r--r-- root/root         0 2024-06-28 11:55 minarca-server/data/etc/minarca/conf.d/placeholder
--rw-r--r-- root/root       160 2024-06-28 11:55 minarca-server/data/etc/minarca/minarca-server.conf
-drwxr-xr-x root/root         0 2024-06-28 11:55 minarca-server/data/etc/sysctl.d/
--rw-r--r-- root/root        36 2024-06-28 11:55 minarca-server/data/etc/sysctl.d/00-minarca-server-userns.conf
-drwxr-xr-x root/root         0 2024-06-28 11:55 minarca-server/debian/
--rw-r--r-- root/root       151 2024-06-28 11:55 minarca-server/debian/changelog.in
--rw-r--r-- root/root       662 2024-06-28 11:55 minarca-server/debian/control
-drwxr-xr-x root/root         0 2024-06-28 11:55 minarca-server/debian/manpages/
--rw-r--r-- root/root     19550 2024-06-28 11:55 minarca-server/debian/manpages/minarca-server.1
--rw-r--r-- root/root       353 2024-06-28 11:55 minarca-server/debian/minarca-server.install
--rw-r--r-- root/root       162 2024-06-28 11:55 minarca-server/debian/minarca-server.links
--rw-r--r-- root/root        17 2024-06-28 11:55 minarca-server/debian/minarca-server.manpages
--rw-r--r-- root/root      4988 2024-06-28 11:55 minarca-server/debian/minarca-server.postinst
--rw-r--r-- root/root       198 2024-06-28 11:55 minarca-server/debian/minarca-server.service
--rw-r--r-- root/root       309 2024-06-28 11:55 minarca-server/debian/minarca-server.triggers
--rwxr-xr-x root/root      1017 2024-06-28 11:55 minarca-server/debian/rules
-drwxr-xr-x root/root         0 2024-06-28 11:55 minarca-server/minarca_server/
--rw-r--r-- root/root       148 2024-06-28 11:55 minarca-server/minarca_server/__init__.py
--rw-r--r-- root/root      2480 2024-06-28 11:55 minarca-server/minarca_server/app.py
--rw-r--r-- root/root     82751 2024-06-28 11:55 minarca-server/minarca_server/bg.jpg
--rw-r--r-- root/root      7268 2024-06-28 11:55 minarca-server/minarca_server/config.py
-drwxr-xr-x root/root         0 2024-06-28 11:55 minarca-server/minarca_server/controller/
--rw-r--r-- root/root         0 2024-06-28 11:55 minarca-server/minarca_server/controller/__init__.py
--rw-r--r-- root/root      3460 2024-06-28 11:55 minarca-server/minarca_server/controller/api.py
-drwxr-xr-x root/root         0 2024-06-28 11:55 minarca-server/minarca_server/controller/tests/
--rw-r--r-- root/root      6412 2024-06-28 11:55 minarca-server/minarca_server/controller/tests/test_controller.py
-drwxr-xr-x root/root         0 2024-06-28 11:55 minarca-server/minarca_server/core/
--rw-r--r-- root/root         0 2024-06-28 11:55 minarca-server/minarca_server/core/__init__.py
--rw-r--r-- root/root      9301 2024-06-28 11:55 minarca-server/minarca_server/core/contexts.py
--rw-r--r-- root/root      2227 2024-06-28 11:55 minarca-server/minarca_server/core/jail.py
--rw-r--r-- root/root      3578 2024-06-28 11:55 minarca-server/minarca_server/core/minarcaid.py
--rw-r--r-- root/root      1775 2024-06-28 11:55 minarca-server/minarca_server/core/mount.py
--rw-r--r-- root/root     10407 2024-06-28 11:55 minarca-server/minarca_server/core/namespaces.py
--rw-r--r-- root/root     19278 2024-06-28 11:55 minarca-server/minarca_server/logo.png
--rw-r--r-- root/root      5836 2024-06-28 11:55 minarca-server/minarca_server/logo.svg
--rw-r--r-- root/root       379 2024-06-28 11:55 minarca-server/minarca_server/main.py
--rw-r--r-- root/root    353118 2024-06-28 11:55 minarca-server/minarca_server/minarca.ico
--rw-r--r-- root/root     12514 2024-06-28 11:55 minarca-server/minarca_server/minarca_logo.png
--rw-r--r-- root/root      5685 2024-06-28 11:55 minarca-server/minarca_server/minarca_logo.svg
-drwxr-xr-x root/root         0 2024-06-28 11:55 minarca-server/minarca_server/plugins/
--rw-r--r-- root/root         0 2024-06-28 11:55 minarca-server/minarca_server/plugins/__init__.py
--rw-r--r-- root/root     11837 2024-06-28 11:55 minarca-server/minarca_server/plugins/minarca.py
-drwxr-xr-x root/root         0 2024-06-28 11:55 minarca-server/minarca_server/plugins/tests/
--rw-r--r-- root/root         0 2024-06-28 11:55 minarca-server/minarca_server/plugins/tests/__init__.py
--rw-r--r-- root/root     15157 2024-06-28 11:55 minarca-server/minarca_server/plugins/tests/test_minarca.py
--rw-r--r-- root/root       402 2024-06-28 11:55 minarca-server/minarca_server/plugins/tests/test_publickey_ssh_rsa.pub
--rw-r--r-- root/root      6147 2024-06-28 11:55 minarca-server/minarca_server/shell.py
-drwxr-xr-x root/root         0 2024-06-28 11:55 minarca-server/minarca_server/tests/
--rw-r--r-- root/root      1513 2024-06-28 11:55 minarca-server/minarca_server/tests/__init__.py
--rw-r--r-- root/root       395 2024-06-28 11:55 minarca-server/minarca_server/tests/ssh_host_rsa_key.pub
--rw-r--r-- root/root       875 2024-06-28 11:55 minarca-server/minarca_server/tests/test_main.py
--rw-r--r-- root/root      5091 2024-06-28 11:55 minarca-server/minarca_server/tests/test_shell.py
--rw-r--r-- root/root        66 2024-06-28 11:55 minarca-server/pyproject.toml
--rw-r--r-- root/root      1651 2024-06-28 11:55 minarca-server/setup.py
--rw-r--r-- root/root      1078 2024-06-28 11:55 minarca-server/tox.ini
-drwxr-xr-x root/root         0 2024-06-28 20:49 minarca-server/.eggs/
--rw-r--r-- root/root       211 2024-06-28 20:49 minarca-server/.eggs/README.txt
-drwxr-xr-x root/root         0 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/
-drwxr-xr-x root/root         0 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/
--rw-r--r-- root/root      5891 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/__init__.py
--rw-r--r-- root/root        98 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/__main__.py
--rw-r--r-- root/root      2845 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/_cli.py
--rw-r--r-- root/root      2696 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/_entrypoints.py
--rw-r--r-- root/root      1067 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/_overrides.py
--rw-r--r-- root/root       845 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/_types.py
--rw-r--r-- root/root      1575 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/_version_cls.py
--rw-r--r-- root/root      7237 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/config.py
--rw-r--r-- root/root      1867 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/discover.py
--rw-r--r-- root/root      3100 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/file_finder.py
--rw-r--r-- root/root      4287 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/file_finder_git.py
--rw-r--r-- root/root      2293 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/file_finder_hg.py
--rw-r--r-- root/root      9599 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/git.py
--rw-r--r-- root/root      1776 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/hacks.py
--rw-r--r-- root/root      6128 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/hg.py
--rw-r--r-- root/root      4166 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/hg_git.py
--rw-r--r-- root/root      3620 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/integration.py
--rw-r--r-- root/root       585 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/scm_workdir.py
--rw-r--r-- root/root      5117 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/utils.py
--rw-r--r-- root/root     17034 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/version.py
-drwxr-xr-x root/root         0 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/_integration/
--rw-r--r-- root/root         0 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/_integration/__init__.py
--rw-r--r-- root/root      2838 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/_integration/pyproject_reading.py
--rw-r--r-- root/root       530 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/_integration/setuptools.py
-drwxr-xr-x root/root         0 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/_integration/__pycache__/
--rw-r--r-- root/root       226 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/_integration/__pycache__/__init__.cpython-311.pyc
--rw-r--r-- root/root      4729 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/_integration/__pycache__/pyproject_reading.cpython-311.pyc
--rw-r--r-- root/root      1164 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/_integration/__pycache__/setuptools.cpython-311.pyc
-drwxr-xr-x root/root         0 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/__pycache__/
--rw-r--r-- root/root      7490 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/__pycache__/__init__.cpython-311.pyc
--rw-r--r-- root/root      4937 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/__pycache__/_entrypoints.cpython-311.pyc
--rw-r--r-- root/root     10200 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/__pycache__/utils.cpython-311.pyc
--rw-r--r-- root/root     24815 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/__pycache__/version.cpython-311.pyc
--rw-r--r-- root/root      2608 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/__pycache__/_version_cls.cpython-311.pyc
--rw-r--r-- root/root     10340 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/__pycache__/config.cpython-311.pyc
--rw-r--r-- root/root      1608 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/__pycache__/_overrides.cpython-311.pyc
--rw-r--r-- root/root      3060 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/__pycache__/discover.cpython-311.pyc
--rw-r--r-- root/root      5567 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/__pycache__/integration.cpython-311.pyc
--rw-r--r-- root/root     13790 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/__pycache__/git.cpython-311.pyc
--rw-r--r-- root/root      1686 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/__pycache__/scm_workdir.cpython-311.pyc
--rw-r--r-- root/root      6528 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/__pycache__/file_finder_git.cpython-311.pyc
--rw-r--r-- root/root      5139 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/__pycache__/file_finder.cpython-311.pyc
-drwxr-xr-x root/root         0 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/EGG-INFO/
--rw-r--r-- root/root      1023 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/EGG-INFO/LICENSE
--rw-r--r-- root/root        92 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/EGG-INFO/WHEEL
--rw-r--r-- root/root      1734 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/EGG-INFO/entry_points.txt
--rw-r--r-- root/root        15 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/EGG-INFO/top_level.txt
--rw-r--r-- root/root         1 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/EGG-INFO/zip-safe
--rw-rw-r-- root/root      2575 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/EGG-INFO/RECORD
--rw-r--r-- root/root     24836 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/EGG-INFO/PKG-INFO
--rw-r--r-- root/root       102 2024-06-28 20:49 minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/EGG-INFO/requires.txt
-drwxr-xr-x root/root         0 2024-06-28 20:49 minarca-server/.eggs/typing_extensions-4.12.2-py3.11.egg/
--rw-r--r-- root/root    134451 2024-06-28 20:49 minarca-server/.eggs/typing_extensions-4.12.2-py3.11.egg/typing_extensions.py
-drwxr-xr-x root/root         0 2024-06-28 20:49 minarca-server/.eggs/typing_extensions-4.12.2-py3.11.egg/EGG-INFO/
--rw-r--r-- root/root     13936 2024-06-28 20:49 minarca-server/.eggs/typing_extensions-4.12.2-py3.11.egg/EGG-INFO/LICENSE
--rw-r--r-- root/root        81 2024-06-28 20:49 minarca-server/.eggs/typing_extensions-4.12.2-py3.11.egg/EGG-INFO/WHEEL
--rw-r--r-- root/root       418 2024-06-28 20:49 minarca-server/.eggs/typing_extensions-4.12.2-py3.11.egg/EGG-INFO/RECORD
--rw-r--r-- root/root      3018 2024-06-28 20:49 minarca-server/.eggs/typing_extensions-4.12.2-py3.11.egg/EGG-INFO/PKG-INFO
-drwxr-xr-x root/root         0 2024-06-28 21:20 minarca-server/minarca_server.egg-info/
--rw-r--r-- root/root       550 2024-06-28 21:20 minarca-server/minarca_server.egg-info/PKG-INFO
--rw-r--r-- root/root         1 2024-06-28 21:20 minarca-server/minarca_server.egg-info/dependency_links.txt
--rw-r--r-- root/root       102 2024-06-28 21:20 minarca-server/minarca_server.egg-info/entry_points.txt
--rw-r--r-- root/root       125 2024-06-28 21:20 minarca-server/minarca_server.egg-info/requires.txt
--rw-r--r-- root/root        15 2024-06-28 21:20 minarca-server/minarca_server.egg-info/top_level.txt
--rw-r--r-- root/root      1614 2024-06-28 21:20 minarca-server/minarca_server.egg-info/SOURCES.txt
-drwxr-xr-x root/root         0 2024-06-28 20:51 minarca-server/dist/
--rw-r--r-- root/root    170615 2024-06-28 20:49 minarca-server/dist/minarca_server-6.0.0b3.tar.gz
--rw-r--r-- root/root    177513 2024-06-28 20:49 minarca-server/dist/minarca_server-6.0.0b3-1.src.rpm
--rw-r--r-- root/root    202892 2024-06-28 20:49 minarca-server/dist/minarca_server-6.0.0b3-1.noarch.rpm
--rw-r--r-- root/root      1032 2024-06-28 21:20 minarca-server/dist/minarca_server.spec
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/
+drwxr-xr-x root/root         0 2024-06-28 21:21 minarca/.git/
+drwxr-xr-x root/root         0 2024-06-28 11:45 minarca/.git/branches/
+-rw-r--r-- root/root        73 2024-06-28 11:45 minarca/.git/description
+drwxr-xr-x root/root         0 2024-06-28 11:45 minarca/.git/hooks/
+-rwxr-xr-x root/root       482 2024-06-28 11:45 minarca/.git/hooks/applypatch-msg.sample
+-rwxr-xr-x root/root       900 2024-06-28 11:45 minarca/.git/hooks/commit-msg.sample
+-rwxr-xr-x root/root       193 2024-06-28 11:45 minarca/.git/hooks/post-update.sample
+-rwxr-xr-x root/root       428 2024-06-28 11:45 minarca/.git/hooks/pre-applypatch.sample
+-rwxr-xr-x root/root      1647 2024-06-28 11:45 minarca/.git/hooks/pre-commit.sample
+-rwxr-xr-x root/root       420 2024-06-28 11:45 minarca/.git/hooks/pre-merge-commit.sample
+-rwxr-xr-x root/root      1378 2024-06-28 11:45 minarca/.git/hooks/pre-push.sample
+-rwxr-xr-x root/root       548 2024-06-28 11:45 minarca/.git/hooks/pre-receive.sample
+-rwxr-xr-x root/root      2787 2024-06-28 11:45 minarca/.git/hooks/push-to-checkout.sample
+-rwxr-xr-x root/root      3654 2024-06-28 11:45 minarca/.git/hooks/update.sample
+-rwxr-xr-x root/root      4726 2024-06-28 11:45 minarca/.git/hooks/fsmonitor-watchman.sample
+-rwxr-xr-x root/root      4902 2024-06-28 11:45 minarca/.git/hooks/pre-rebase.sample
+-rwxr-xr-x root/root      1496 2024-06-28 11:45 minarca/.git/hooks/prepare-commit-msg.sample
+drwxr-xr-x root/root         0 2024-06-28 11:45 minarca/.git/info/
+-rw-r--r-- root/root       240 2024-06-28 11:45 minarca/.git/info/exclude
+drwxr-xr-x root/root         0 2024-06-28 11:45 minarca/.git/refs/
+drwxr-xr-x root/root         0 2024-06-28 11:45 minarca/.git/refs/heads/
+-rw-r--r-- root/root        41 2024-06-28 11:45 minarca/.git/refs/heads/master
+drwxr-xr-x root/root         0 2024-06-28 11:45 minarca/.git/refs/tags/
+drwxr-xr-x root/root         0 2024-06-28 11:45 minarca/.git/refs/remotes/
+drwxr-xr-x root/root         0 2024-06-28 20:34 minarca/.git/refs/remotes/origin/
+-rw-r--r-- root/root        32 2024-06-28 11:45 minarca/.git/refs/remotes/origin/HEAD
+-rw-r--r-- root/root        41 2024-06-28 20:34 minarca/.git/refs/remotes/origin/patrik-ignore-google-drive
+-rw-r--r-- root/root        41 2024-06-28 20:34 minarca/.git/refs/remotes/origin/patrik-nsis-check-running
+-rw-r--r-- root/root        41 2024-06-28 20:35 minarca/.git/HEAD
+-rw-r--r-- root/root       263 2024-06-28 11:45 minarca/.git/config
+drwxr-xr-x root/root         0 2024-06-28 20:35 minarca/.git/objects/
+drwxr-xr-x root/root         0 2024-06-28 11:45 minarca/.git/objects/pack/
+-r--r--r-- root/root  34695913 2024-06-28 11:45 minarca/.git/objects/pack/pack-5d5ec02d5e913022df56158f4215880a6165f25d.pack
+-r--r--r-- root/root    363056 2024-06-28 11:45 minarca/.git/objects/pack/pack-5d5ec02d5e913022df56158f4215880a6165f25d.idx
+drwxr-xr-x root/root         0 2024-06-28 11:45 minarca/.git/objects/info/
+drwxr-xr-x root/root         0 2024-06-28 20:16 minarca/.git/objects/f1/
+-r--r--r-- root/root       195 2024-06-28 20:16 minarca/.git/objects/f1/6127a216692a1a349214a8c79ed0c6b6890577
+drwxr-xr-x root/root         0 2024-06-28 20:16 minarca/.git/objects/10/
+-r--r--r-- root/root       438 2024-06-28 20:16 minarca/.git/objects/10/b0b0d5d6362ec8bad3aebc009cb667740b61ff
+drwxr-xr-x root/root         0 2024-06-28 20:16 minarca/.git/objects/7a/
+-r--r--r-- root/root     16562 2024-06-28 20:16 minarca/.git/objects/7a/3ee1077f78039885cf040ec37da2c678ae4d65
+drwxr-xr-x root/root         0 2024-06-28 20:16 minarca/.git/objects/15/
+-r--r--r-- root/root       532 2024-06-28 20:16 minarca/.git/objects/15/166082ae0090cf2260528aea1b6190e3bf324f
+drwxr-xr-x root/root         0 2024-06-28 20:16 minarca/.git/objects/35/
+-r--r--r-- root/root       262 2024-06-28 20:16 minarca/.git/objects/35/9d84605b731c87a2b7527e28686b1ebc9d9805
+drwxr-xr-x root/root         0 2024-06-28 20:16 minarca/.git/objects/e4/
+-r--r--r-- root/root       438 2024-06-28 20:16 minarca/.git/objects/e4/07345f42aacbd9c4ba64780534c2dd2035ae46
+drwxr-xr-x root/root         0 2024-06-28 20:16 minarca/.git/objects/57/
+-r--r--r-- root/root      5012 2024-06-28 20:16 minarca/.git/objects/57/07687363172da4b441fafe4e5f14d7ab45f99c
+drwxr-xr-x root/root         0 2024-06-28 20:21 minarca/.git/objects/d4/
+-r--r--r-- root/root       184 2024-06-28 20:21 minarca/.git/objects/d4/e17ba3e3f35b8425d4e524843c5a8fc90765fc
+drwxr-xr-x root/root         0 2024-06-28 20:21 minarca/.git/objects/56/
+-r--r--r-- root/root       438 2024-06-28 20:21 minarca/.git/objects/56/50004623187379c84f515858befa40bdbeeef3
+drwxr-xr-x root/root         0 2024-06-28 20:21 minarca/.git/objects/3a/
+-r--r--r-- root/root       411 2024-06-28 20:21 minarca/.git/objects/3a/4c3823d8109233e7d0f07c77a2e1533f0809eb
+drwxr-xr-x root/root         0 2024-06-28 20:21 minarca/.git/objects/db/
+-r--r--r-- root/root       179 2024-06-28 20:21 minarca/.git/objects/db/2fc0e67e786950bbe3b7e088937c13e3402312
+drwxr-xr-x root/root         0 2024-06-28 20:21 minarca/.git/objects/ca/
+-r--r--r-- root/root      2784 2024-06-28 20:21 minarca/.git/objects/ca/ce7e5efdf13b12431f0540415b8b01979031b7
+drwxr-xr-x root/root         0 2024-06-28 20:21 minarca/.git/objects/c3/
+-r--r--r-- root/root      3786 2024-06-28 20:21 minarca/.git/objects/c3/1b32d0c3910353cf5cf35debe5c21c31b8a6ad
+drwxr-xr-x root/root         0 2024-06-28 20:21 minarca/.git/objects/ff/
+-r--r--r-- root/root      1299 2024-06-28 20:21 minarca/.git/objects/ff/b289ceadda50e57ff62ef09e8af1c2154a1662
+drwxr-xr-x root/root         0 2024-06-28 20:34 minarca/.git/objects/7d/
+-r--r--r-- root/root       199 2024-06-28 20:34 minarca/.git/objects/7d/743dcac52a0ce1722937ee58b578f4bb6d870e
+drwxr-xr-x root/root         0 2024-06-28 20:34 minarca/.git/objects/f9/
+-r--r--r-- root/root       197 2024-06-28 20:34 minarca/.git/objects/f9/5b3a04022ed54f04cb8e3e1fda228a9009c2dd
+drwxr-xr-x root/root         0 2024-06-28 20:34 minarca/.git/objects/58/
+-r--r--r-- root/root       439 2024-06-28 20:34 minarca/.git/objects/58/16d71c65c2a8739ecef4634907e6af1d16a80e
+drwxr-xr-x root/root         0 2024-06-28 20:34 minarca/.git/objects/c0/
+-r--r--r-- root/root       532 2024-06-28 20:34 minarca/.git/objects/c0/1028779cb165e1b3eaf4a777e6f4e9c2cb20f5
+drwxr-xr-x root/root         0 2024-06-28 20:34 minarca/.git/objects/53/
+-r--r--r-- root/root       411 2024-06-28 20:34 minarca/.git/objects/53/69a649c5addea101f5de3eaac87fa3b6bc9b2c
+drwxr-xr-x root/root         0 2024-06-28 20:34 minarca/.git/objects/69/
+-r--r--r-- root/root       261 2024-06-28 20:34 minarca/.git/objects/69/982eae292e8e9fd2786413b77e0e7220143698
+drwxr-xr-x root/root         0 2024-06-28 20:34 minarca/.git/objects/b5/
+-r--r--r-- root/root       438 2024-06-28 20:34 minarca/.git/objects/b5/293226097c9b66874ffcdd741891246b82b73b
+drwxr-xr-x root/root         0 2024-06-28 20:34 minarca/.git/objects/d2/
+-r--r--r-- root/root       882 2024-06-28 20:34 minarca/.git/objects/d2/921a06788aa49dab3502df65cf15387639060c
+drwxr-xr-x root/root         0 2024-06-28 20:34 minarca/.git/objects/32/
+-r--r--r-- root/root       439 2024-06-28 20:34 minarca/.git/objects/32/e8f1ce6972790879c152f9e749176df0819c61
+drwxr-xr-x root/root         0 2024-06-28 20:34 minarca/.git/objects/2d/
+-r--r--r-- root/root     16559 2024-06-28 20:34 minarca/.git/objects/2d/6aebcfd77822fca8469ebc108e284035bb7a59
+drwxr-xr-x root/root         0 2024-06-28 20:34 minarca/.git/objects/f6/
+-r--r--r-- root/root       262 2024-06-28 20:34 minarca/.git/objects/f6/329c5dead41f62a19a9008cc5efea7e9602e8e
+drwxr-xr-x root/root         0 2024-06-28 20:34 minarca/.git/objects/30/
+-r--r--r-- root/root       436 2024-06-28 20:34 minarca/.git/objects/30/f940dca360198d279ebbba8270a039766820ab
+drwxr-xr-x root/root         0 2024-06-28 20:34 minarca/.git/objects/67/
+-r--r--r-- root/root      5003 2024-06-28 20:34 minarca/.git/objects/67/321f5946816937046e318786542d7e2841c528
+-rw-r--r-- root/root     12095 2024-06-28 11:45 minarca/.git/packed-refs
+drwxr-xr-x root/root         0 2024-06-28 11:45 minarca/.git/logs/
+drwxr-xr-x root/root         0 2024-06-28 11:45 minarca/.git/logs/refs/
+drwxr-xr-x root/root         0 2024-06-28 11:45 minarca/.git/logs/refs/remotes/
+drwxr-xr-x root/root         0 2024-06-28 20:21 minarca/.git/logs/refs/remotes/origin/
+-rw-r--r-- root/root       178 2024-06-28 11:45 minarca/.git/logs/refs/remotes/origin/HEAD
+-rw-r--r-- root/root       299 2024-06-28 20:34 minarca/.git/logs/refs/remotes/origin/patrik-ignore-google-drive
+-rw-r--r-- root/root       299 2024-06-28 20:34 minarca/.git/logs/refs/remotes/origin/patrik-nsis-check-running
+drwxr-xr-x root/root         0 2024-06-28 11:45 minarca/.git/logs/refs/heads/
+-rw-r--r-- root/root       178 2024-06-28 11:45 minarca/.git/logs/refs/heads/master
+-rw-r--r-- root/root     21333 2024-06-28 20:35 minarca/.git/logs/HEAD
+-rw-r--r-- root/root     29790 2024-06-28 20:52 minarca/.git/index
+-rw-r--r-- root/root      7014 2024-06-28 20:35 minarca/.git/FETCH_HEAD
+-rw-r--r-- root/root        41 2024-06-28 11:48 minarca/.git/ORIG_HEAD
+-rw-r--r-- root/root        25 2024-06-28 11:54 minarca/.git/COMMIT_EDITMSG
+-rw-r--r-- root/root       626 2024-06-28 11:55 minarca/.gitignore
+-rw-r--r-- root/root     13471 2024-06-28 11:55 minarca/.gitlab-ci.yml
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/.vscode/
+-rw-r--r-- root/root      2039 2024-06-28 11:55 minarca/.vscode/launch.json
+-rw-r--r-- root/root       317 2024-06-28 11:55 minarca/.vscode/settings.json
+-rw-r--r-- root/root        17 2024-06-28 11:55 minarca/FUNDING.yml
+-rw-r--r-- root/root     34522 2024-06-28 11:55 minarca/LICENSE
+-rw-r--r-- root/root     42301 2024-06-28 11:55 minarca/README.md
+-rw-r--r-- root/root       360 2024-06-28 11:55 minarca/SECURITY.md
+-rwxr-xr-x root/root      5161 2024-06-28 11:55 minarca/get-minarca.sh
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/minarca-client/
+-rw-r--r-- root/root       263 2024-06-28 11:55 minarca/minarca-client/.gitignore
+-rw-r--r-- root/root     34522 2024-06-28 11:55 minarca/minarca-client/LICENSE
+-rw-r--r-- root/root       377 2024-06-28 11:55 minarca/minarca-client/MANIFEST.in
+-rw-r--r-- root/root        36 2024-06-28 11:55 minarca/minarca-client/babel.cfg
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/minarca-client/doc/
+-rw-r--r-- root/root     23318 2024-06-28 11:55 minarca/minarca-client/doc/10acceuil.png
+-rw-r--r-- root/root     22806 2024-06-28 11:55 minarca/minarca-client/doc/12repositories.png
+-rw-r--r-- root/root     32041 2024-06-28 11:55 minarca/minarca-client/doc/15usersettings.png
+-rw-r--r-- root/root     14683 2024-06-28 11:55 minarca/minarca-client/doc/4terms.png
+-rw-r--r-- root/root     50992 2024-06-28 11:55 minarca/minarca-client/doc/5connect.png
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/minarca-client/doc/_static/
+-rw-r--r-- root/root    137593 2024-06-28 11:55 minarca/minarca-client/doc/_static/banner.png
+-rw-r--r-- root/root   1318598 2024-06-28 11:55 minarca/minarca-client/doc/_static/banner.svg
+-rw-r--r-- root/root    124710 2024-06-28 11:55 minarca/minarca-client/doc/_static/feature1.png
+-rw-r--r-- root/root    171786 2024-06-28 11:55 minarca/minarca-client/doc/_static/feature2-linux.png
+-rw-r--r-- root/root    463213 2024-06-28 11:55 minarca/minarca-client/doc/_static/feature2-mac.png
+-rw-r--r-- root/root    629635 2024-06-28 11:55 minarca/minarca-client/doc/_static/feature2-win.png
+-rw-r--r-- root/root     53992 2024-06-28 11:55 minarca/minarca-client/doc/_static/feature3.png
+-rw-r--r-- root/root    220714 2024-06-28 11:55 minarca/minarca-client/doc/_static/feature4.png
+-rw-r--r-- root/root     39267 2024-06-28 11:55 minarca/minarca-client/doc/_static/minarca-logo.png
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/minarca-client/doc/_templates/
+-rw-r--r-- root/root      2257 2024-06-28 11:55 minarca/minarca-client/doc/_templates/layout.html
+-rw-r--r-- root/root     48679 2024-06-28 11:55 minarca/minarca-client/doc/architecture-overview.graphml
+-rw-r--r-- root/root     89174 2024-06-28 11:55 minarca/minarca-client/doc/architecture-overview.png
+-rw-r--r-- root/root    187279 2024-06-28 11:55 minarca/minarca-client/doc/architecture.graphml
+-rw-r--r-- root/root      3346 2024-06-28 11:55 minarca/minarca-client/doc/conf.py
+-rw-r--r-- root/root      1891 2024-06-28 11:55 minarca/minarca-client/doc/configuration-latest.md
+-rw-r--r-- root/root      7720 2024-06-28 11:55 minarca/minarca-client/doc/configuration-ldap.md
+-rw-r--r-- root/root      4573 2024-06-28 11:55 minarca/minarca-client/doc/configuration-storage.md
+-rw-r--r-- root/root     23237 2024-06-28 11:55 minarca/minarca-client/doc/configuration.md
+-rw-r--r-- root/root       781 2024-06-28 11:55 minarca/minarca-client/doc/development.md
+-rw-r--r-- root/root      7635 2024-06-28 11:55 minarca/minarca-client/doc/faq.md
+-rw-r--r-- root/root     11068 2024-06-28 11:55 minarca/minarca-client/doc/fenetre-installation.png
+-rw-r--r-- root/root      2737 2024-06-28 11:55 minarca/minarca-client/doc/hardening.md
+-rw-r--r-- root/root      1170 2024-06-28 11:55 minarca/minarca-client/doc/index.rst
+-rw-r--r-- root/root      7212 2024-06-28 11:55 minarca/minarca-client/doc/installation.md
+-rw-r--r-- root/root      3915 2024-06-28 11:55 minarca/minarca-client/doc/introduction.md
+-rw-r--r-- root/root    146047 2024-06-28 11:55 minarca/minarca-client/doc/macos-installation-issue.png
+-rw-r--r-- root/root      4542 2024-06-28 11:55 minarca/minarca-client/doc/minarca-client-cli.md
+-rw-r--r-- root/root      7215 2024-06-28 11:55 minarca/minarca-client/doc/minarca-client.md
+-rw-r--r-- root/root     75380 2024-06-28 11:55 minarca/minarca-client/doc/minarca-macos-disk-image.png
+-rw-r--r-- root/root      4878 2024-06-28 11:55 minarca/minarca-client/doc/networking.md
+-rw-r--r-- root/root     10552 2024-06-28 11:55 minarca/minarca-client/doc/run-whether-user-is-logged-on-or-not.png
+-rw-r--r-- root/root      2247 2024-06-28 11:55 minarca/minarca-client/doc/settings.md
+-rw-r--r-- root/root       298 2024-06-28 11:55 minarca/minarca-client/minarca.desktop
+-rw-r--r-- root/root      1090 2024-06-28 11:55 minarca/minarca-client/minarca.dmgbuild
+-rw-r--r-- root/root      7015 2024-06-28 11:55 minarca/minarca-client/minarca.nsi
+-rw-r--r-- root/root      3900 2024-06-28 11:55 minarca/minarca-client/minarca.postinst
+-rw-r--r-- root/root      9703 2024-06-28 11:55 minarca/minarca-client/minarca.spec
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/minarca-client/minarca_client/
+-rw-r--r-- root/root       441 2024-06-28 11:55 minarca/minarca-client/minarca_client/__init__.py
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/
+-rw-r--r-- root/root       353 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/__init__.py
+-rw-r--r-- root/root     13626 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/backup.py
+-rw-r--r-- root/root     16894 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/compat.py
+-rw-r--r-- root/root     15285 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/config.py
+-rw-r--r-- root/root      6397 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/disk.py
+-rw-r--r-- root/root     12523 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/exceptions.py
+-rw-r--r-- root/root     35473 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/instance.py
+-rw-r--r-- root/root      2242 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/latest.py
+-rw-r--r-- root/root      4559 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/minarcaid.py
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/notification/
+-rw-r--r-- root/root       649 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/notification/__init__.py
+-rw-r--r-- root/root      1537 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/notification/_notification_cocoa.py
+-rw-r--r-- root/root      3273 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/notification/_notification_dbus.py
+-rw-r--r-- root/root      1346 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/notification/_notification_win.py
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/notification/tests/
+-rw-r--r-- root/root         0 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/notification/tests/__init__.py
+-rw-r--r-- root/root      1167 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/notification/tests/test_notification.py
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/openssh/
+-rw-r--r-- root/root     16040 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/openssh/LICENCE
+-rw-r--r-- root/root        68 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/openssh/SOURCE
+-rw-r--r-- root/root         0 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/openssh/__init__.py
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/openssh/win_amd64/
+-rwxr-xr-x root/root     12819 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/openssh/win_amd64/cygcom_err-2.dll
+-rwxr-xr-x root/root   2509843 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/openssh/win_amd64/cygcrypto-1.1.dll
+-rwxr-xr-x root/root     74259 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/openssh/win_amd64/cyggcc_s-seh-1.dll
+-rwxr-xr-x root/root    280595 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/openssh/win_amd64/cyggssapi_krb5-2.dll
+-rwxr-xr-x root/root   1030675 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/openssh/win_amd64/cygiconv-2.dll
+-rwxr-xr-x root/root     43027 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/openssh/win_amd64/cygintl-8.dll
+-rwxr-xr-x root/root    196115 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/openssh/win_amd64/cygk5crypto-3.dll
+-rwxr-xr-x root/root    772115 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/openssh/win_amd64/cygkrb5-3.dll
+-rwxr-xr-x root/root     37907 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/openssh/win_amd64/cygkrb5support-0.dll
+-rwxr-xr-x root/root   3618249 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/openssh/win_amd64/cygwin1.dll
+-rwxr-xr-x root/root     85011 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/openssh/win_amd64/cygz.dll
+-rwxr-xr-x root/root    829459 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/openssh/win_amd64/ssh.exe
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/openssh/win_x86/
+-rwxr-xr-x root/root     13341 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/openssh/win_x86/cygcom_err-2.dll
+-rwxr-xr-x root/root   2384413 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/openssh/win_x86/cygcrypto-1.1.dll
+-rwxr-xr-x root/root    112157 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/openssh/win_x86/cyggcc_s-1.dll
+-rwxr-xr-x root/root    297501 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/openssh/win_x86/cyggssapi_krb5-2.dll
+-rwxr-xr-x root/root   1032733 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/openssh/win_x86/cygiconv-2.dll
+-rwxr-xr-x root/root     44061 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/openssh/win_x86/cygintl-8.dll
+-rwxr-xr-x root/root    211485 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/openssh/win_x86/cygk5crypto-3.dll
+-rwxr-xr-x root/root    796189 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/openssh/win_x86/cygkrb5-3.dll
+-rwxr-xr-x root/root     41501 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/openssh/win_x86/cygkrb5support-0.dll
+-rwxr-xr-x root/root   3343924 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/openssh/win_x86/cygwin1.dll
+-rwxr-xr-x root/root     88605 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/openssh/win_x86/cygz.dll
+-rwxr-xr-x root/root    888861 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/openssh/win_x86/ssh.exe
+-rw-r--r-- root/root      4098 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/rdiffweb.py
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/tests/
+-rw-r--r-- root/root         0 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/tests/__init__.py
+-rw-r--r-- root/root      3589 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/tests/test_backup.py
+-rw-r--r-- root/root      6459 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/tests/test_compat.py
+-rw-r--r-- root/root     15661 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/tests/test_config.py
+-rw-r--r-- root/root      1040 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/tests/test_disk.py
+-rw-r--r-- root/root      1376 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/tests/test_exceptions.py
+-rw-r--r-- root/root     47134 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/tests/test_instance.py
+-rw-r--r-- root/root      3056 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/tests/test_latest.py
+-rw-r--r-- root/root      4697 2024-06-28 11:55 minarca/minarca-client/minarca_client/core/tests/test_rdiffweb.py
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/minarca-client/minarca_client/dialogs/
+-rw-r--r-- root/root       585 2024-06-28 11:55 minarca/minarca-client/minarca_client/dialogs/__init__.py
+-rw-r--r-- root/root      3904 2024-06-28 11:55 minarca/minarca-client/minarca_client/dialogs/_dialogs_cocoa.py
+-rw-r--r-- root/root      6892 2024-06-28 11:55 minarca/minarca-client/minarca_client/dialogs/_dialogs_win.py
+-rw-r--r-- root/root      4495 2024-06-28 11:55 minarca/minarca-client/minarca_client/dialogs/_dialogs_zenity.py
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/minarca-client/minarca_client/dialogs/tests/
+-rw-r--r-- root/root         0 2024-06-28 11:55 minarca/minarca-client/minarca_client/dialogs/tests/__init__.py
+-rw-r--r-- root/root      2947 2024-06-28 11:55 minarca/minarca-client/minarca_client/dialogs/tests/test_dialogs.py
+-rw-r--r-- root/root      1441 2024-06-28 11:55 minarca/minarca-client/minarca_client/locale.py
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/minarca-client/minarca_client/locales/
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/minarca-client/minarca_client/locales/de/
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/minarca-client/minarca_client/locales/de/LC_MESSAGES/
+-rw-r--r-- root/root     31236 2024-06-28 11:55 minarca/minarca-client/minarca_client/locales/de/LC_MESSAGES/messages.mo
+-rw-r--r-- root/root     43749 2024-06-28 11:55 minarca/minarca-client/minarca_client/locales/de/LC_MESSAGES/messages.po
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/minarca-client/minarca_client/locales/fr/
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/minarca-client/minarca_client/locales/fr/LC_MESSAGES/
+-rw-r--r-- root/root     38138 2024-06-28 11:55 minarca/minarca-client/minarca_client/locales/fr/LC_MESSAGES/messages.mo
+-rw-r--r-- root/root     65428 2024-06-28 11:55 minarca/minarca-client/minarca_client/locales/fr/LC_MESSAGES/messages.po
+-rw-r--r-- root/root     33225 2024-06-28 11:55 minarca/minarca-client/minarca_client/locales/messages.pot
+-rw-r--r-- root/root     24412 2024-06-28 11:55 minarca/minarca-client/minarca_client/main.py
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/minarca-client/minarca_client/tests/
+-rw-r--r-- root/root         0 2024-06-28 11:55 minarca/minarca-client/minarca_client/tests/__init__.py
+-rw-r--r-- root/root       618 2024-06-28 11:55 minarca/minarca-client/minarca_client/tests/test.py
+-rw-r--r-- root/root     19099 2024-06-28 11:55 minarca/minarca-client/minarca_client/tests/test_main.py
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/
+-rw-r--r-- root/root       122 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/__init__.py
+-rw-r--r-- root/root      7348 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/about_menu.py
+-rw-r--r-- root/root      4909 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/app.py
+-rw-r--r-- root/root     15540 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/backup_card.py
+-rw-r--r-- root/root     18888 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/backup_connection_local.py
+-rw-r--r-- root/root     12221 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/backup_connection_remote.py
+-rw-r--r-- root/root      4225 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/backup_create.py
+-rw-r--r-- root/root     11324 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/backup_logs.py
+-rw-r--r-- root/root      9749 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/backup_patterns.py
+-rw-r--r-- root/root      4928 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/backup_restore.py
+-rw-r--r-- root/root      9465 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/backup_restore_custom.py
+-rw-r--r-- root/root      8575 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/backup_restore_date.py
+-rw-r--r-- root/root      9216 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/backup_restore_full.py
+-rw-r--r-- root/root     18863 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/backup_settings.py
+-rw-r--r-- root/root      2694 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/dashboard.py
+-rw-r--r-- root/root      6696 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/date_picker.py
+-rw-r--r-- root/root       363 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/kivyenv.py
+-rw-r--r-- root/root       727 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/kivyinit.py
+-rw-r--r-- root/root      3047 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/side_pannel.py
+-rw-r--r-- root/root       813 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/spinner_overlay.py
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/tests/
+-rw-r--r-- root/root      2816 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/tests/__init__.py
+-rw-r--r-- root/root      4190 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/tests/test_backup_connection_local.py
+-rw-r--r-- root/root      4568 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/tests/test_backup_connection_remote.py
+-rw-r--r-- root/root      2012 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/tests/test_backup_logs.py
+-rw-r--r-- root/root      1453 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/tests/test_backup_main.py
+-rw-r--r-- root/root      1374 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/tests/test_backup_patterns.py
+-rw-r--r-- root/root      1662 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/tests/test_backup_restore_custom.py
+-rw-r--r-- root/root      1562 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/tests/test_backup_restore_date.py
+-rw-r--r-- root/root      1907 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/tests/test_backup_restore_full.py
+-rw-r--r-- root/root      6484 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/tests/test_backup_settings.py
+-rw-r--r-- root/root      2807 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/tests/test_date_selection.py
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/theme/
+-rw-r--r-- root/root      9557 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/theme/__init__.py
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/theme/resources/
+-rw-r--r-- root/root    260664 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/theme/resources/OverpassMono-VariableFont_wght.ttf
+-rwxr-xr-x root/root      1216 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/theme/resources/generate.sh
+-rw-r--r-- root/root      3269 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/theme/resources/header-logo-30.png
+-rw-r--r-- root/root      5685 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/theme/resources/header-logo.svg
+-rw-r--r-- root/root     13784 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/theme/resources/local-backup-128.png
+-rw-r--r-- root/root     41770 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/theme/resources/local-backup-256.png
+-rw-r--r-- root/root      5005 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/theme/resources/local-backup-64.png
+-rw-r--r-- root/root     14732 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/theme/resources/local-backup.png
+-rw-r--r-- root/root     37625 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/theme/resources/local-backup.svg
+-rw-r--r-- root/root      4631 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/theme/resources/minarca-72.png
+-rw-r--r-- root/root     73058 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/theme/resources/minarca.icns
+-rw-r--r-- root/root    353118 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/theme/resources/minarca.ico
+-rw-r--r-- root/root      2508 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/theme/resources/minarca.svg
+-rw-r--r-- root/root     12740 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/theme/resources/remote-backup-128.png
+-rw-r--r-- root/root     38017 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/theme/resources/remote-backup-256.png
+-rw-r--r-- root/root      4748 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/theme/resources/remote-backup-64.png
+-rw-r--r-- root/root     12393 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/theme/resources/remote-backup.png
+-rw-r--r-- root/root     35286 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/theme/resources/remote-backup.svg
+-rw-r--r-- root/root       205 2024-06-28 11:55 minarca/minarca-client/minarca_client/ui/utils.py
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/minarca-client/patches/
+-rw-r--r-- root/root      2735 2024-06-28 11:55 minarca/minarca-client/patches/01_improve-regression-speed.patch
+-rw-r--r-- root/root       542 2024-06-28 11:55 minarca/minarca-client/patches/apply.py
+-rw-r--r-- root/root        66 2024-06-28 11:55 minarca/minarca-client/pyproject.toml
+-rw-r--r-- root/root       527 2024-06-28 11:55 minarca/minarca-client/setup.cfg
+-rw-r--r-- root/root      2426 2024-06-28 11:55 minarca/minarca-client/setup.py
+-rw-r--r-- root/root      2863 2024-06-28 11:55 minarca/minarca-client/tox.ini
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/minarca-quota-api/
+-rw-r--r-- root/root       351 2024-06-28 11:55 minarca/minarca-quota-api/README.md
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/minarca-quota-api/debian/
+-rw-r--r-- root/root       154 2024-06-28 11:55 minarca/minarca-quota-api/debian/changelog.in
+-rw-r--r-- root/root       506 2024-06-28 11:55 minarca/minarca-quota-api/debian/control
+-rw-r--r-- root/root        83 2024-06-28 11:55 minarca/minarca-quota-api/debian/minarca-quota-api.conf
+-rw-r--r-- root/root       128 2024-06-28 11:55 minarca/minarca-quota-api/debian/minarca-quota-api.install
+-rw-r--r-- root/root      3868 2024-06-28 11:55 minarca/minarca-quota-api/debian/minarca-quota-api.postinst
+-rw-r--r-- root/root       183 2024-06-28 11:55 minarca/minarca-quota-api/debian/minarca-quota-api.service
+-rw-r--r-- root/root       309 2024-06-28 11:55 minarca/minarca-quota-api/debian/minarca-quota-api.triggers
+-rw-r--r-- root/root        75 2024-06-28 11:55 minarca/minarca-quota-api/debian/placeholder
+-rwxr-xr-x root/root       790 2024-06-28 11:55 minarca/minarca-quota-api/debian/rules
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/minarca-quota-api/minarca_quota_api/
+-rw-r--r-- root/root      6789 2024-06-28 11:55 minarca/minarca-quota-api/minarca_quota_api/__init__.py
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/minarca-quota-api/minarca_quota_api/tests/
+-rw-r--r-- root/root       209 2024-06-28 11:55 minarca/minarca-quota-api/minarca_quota_api/tests/__init__.py
+-rw-r--r-- root/root      3327 2024-06-28 11:55 minarca/minarca-quota-api/minarca_quota_api/tests/test_quota.py
+-rw-r--r-- root/root       776 2024-06-28 11:55 minarca/minarca-quota-api/minarca_quota_api/tests/test_zfs_quota.py
+-rwxr-xr-x root/root      3780 2024-06-28 11:55 minarca/minarca-quota-api/minarca_quota_api/zfs_quota.py
+-rw-r--r-- root/root      2276 2024-06-28 11:55 minarca/minarca-quota-api/nosetests.xml
+-rw-r--r-- root/root        66 2024-06-28 11:55 minarca/minarca-quota-api/pyproject.toml
+-rw-r--r-- root/root       960 2024-06-28 11:55 minarca/minarca-quota-api/setup.py
+-rw-r--r-- root/root       975 2024-06-28 11:55 minarca/minarca-quota-api/tox.ini
+drwxr-xr-x root/root         0 2024-06-28 20:49 minarca/minarca-server/
+-rw-r--r-- root/root        16 2024-06-28 11:55 minarca/minarca-server/.gitignore
+-rw-r--r-- root/root       197 2024-06-28 11:55 minarca/minarca-server/MANIFEST.in
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/minarca-server/data/
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/minarca-server/data/etc/
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/minarca-server/data/etc/minarca/
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/minarca-server/data/etc/minarca/conf.d/
+-rw-r--r-- root/root         0 2024-06-28 11:55 minarca/minarca-server/data/etc/minarca/conf.d/placeholder
+-rw-r--r-- root/root       160 2024-06-28 11:55 minarca/minarca-server/data/etc/minarca/minarca-server.conf
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/minarca-server/data/etc/sysctl.d/
+-rw-r--r-- root/root        36 2024-06-28 11:55 minarca/minarca-server/data/etc/sysctl.d/00-minarca-server-userns.conf
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/minarca-server/debian/
+-rw-r--r-- root/root       151 2024-06-28 11:55 minarca/minarca-server/debian/changelog.in
+-rw-r--r-- root/root       662 2024-06-28 11:55 minarca/minarca-server/debian/control
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/minarca-server/debian/manpages/
+-rw-r--r-- root/root     19550 2024-06-28 11:55 minarca/minarca-server/debian/manpages/minarca-server.1
+-rw-r--r-- root/root       353 2024-06-28 11:55 minarca/minarca-server/debian/minarca-server.install
+-rw-r--r-- root/root       162 2024-06-28 11:55 minarca/minarca-server/debian/minarca-server.links
+-rw-r--r-- root/root        17 2024-06-28 11:55 minarca/minarca-server/debian/minarca-server.manpages
+-rw-r--r-- root/root      4988 2024-06-28 11:55 minarca/minarca-server/debian/minarca-server.postinst
+-rw-r--r-- root/root       198 2024-06-28 11:55 minarca/minarca-server/debian/minarca-server.service
+-rw-r--r-- root/root       309 2024-06-28 11:55 minarca/minarca-server/debian/minarca-server.triggers
+-rwxr-xr-x root/root      1017 2024-06-28 11:55 minarca/minarca-server/debian/rules
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/minarca-server/minarca_server/
+-rw-r--r-- root/root       148 2024-06-28 11:55 minarca/minarca-server/minarca_server/__init__.py
+-rw-r--r-- root/root      2480 2024-06-28 11:55 minarca/minarca-server/minarca_server/app.py
+-rw-r--r-- root/root     82751 2024-06-28 11:55 minarca/minarca-server/minarca_server/bg.jpg
+-rw-r--r-- root/root      7268 2024-06-28 11:55 minarca/minarca-server/minarca_server/config.py
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/minarca-server/minarca_server/controller/
+-rw-r--r-- root/root         0 2024-06-28 11:55 minarca/minarca-server/minarca_server/controller/__init__.py
+-rw-r--r-- root/root      3460 2024-06-28 11:55 minarca/minarca-server/minarca_server/controller/api.py
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/minarca-server/minarca_server/controller/tests/
+-rw-r--r-- root/root      6412 2024-06-28 11:55 minarca/minarca-server/minarca_server/controller/tests/test_controller.py
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/minarca-server/minarca_server/core/
+-rw-r--r-- root/root         0 2024-06-28 11:55 minarca/minarca-server/minarca_server/core/__init__.py
+-rw-r--r-- root/root      9301 2024-06-28 11:55 minarca/minarca-server/minarca_server/core/contexts.py
+-rw-r--r-- root/root      2227 2024-06-28 11:55 minarca/minarca-server/minarca_server/core/jail.py
+-rw-r--r-- root/root      3578 2024-06-28 11:55 minarca/minarca-server/minarca_server/core/minarcaid.py
+-rw-r--r-- root/root      1775 2024-06-28 11:55 minarca/minarca-server/minarca_server/core/mount.py
+-rw-r--r-- root/root     10407 2024-06-28 11:55 minarca/minarca-server/minarca_server/core/namespaces.py
+-rw-r--r-- root/root     19278 2024-06-28 11:55 minarca/minarca-server/minarca_server/logo.png
+-rw-r--r-- root/root      5836 2024-06-28 11:55 minarca/minarca-server/minarca_server/logo.svg
+-rw-r--r-- root/root       379 2024-06-28 11:55 minarca/minarca-server/minarca_server/main.py
+-rw-r--r-- root/root    353118 2024-06-28 11:55 minarca/minarca-server/minarca_server/minarca.ico
+-rw-r--r-- root/root     12514 2024-06-28 11:55 minarca/minarca-server/minarca_server/minarca_logo.png
+-rw-r--r-- root/root      5685 2024-06-28 11:55 minarca/minarca-server/minarca_server/minarca_logo.svg
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/minarca-server/minarca_server/plugins/
+-rw-r--r-- root/root         0 2024-06-28 11:55 minarca/minarca-server/minarca_server/plugins/__init__.py
+-rw-r--r-- root/root     11837 2024-06-28 11:55 minarca/minarca-server/minarca_server/plugins/minarca.py
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/minarca-server/minarca_server/plugins/tests/
+-rw-r--r-- root/root         0 2024-06-28 11:55 minarca/minarca-server/minarca_server/plugins/tests/__init__.py
+-rw-r--r-- root/root     15157 2024-06-28 11:55 minarca/minarca-server/minarca_server/plugins/tests/test_minarca.py
+-rw-r--r-- root/root       402 2024-06-28 11:55 minarca/minarca-server/minarca_server/plugins/tests/test_publickey_ssh_rsa.pub
+-rw-r--r-- root/root      6147 2024-06-28 11:55 minarca/minarca-server/minarca_server/shell.py
+drwxr-xr-x root/root         0 2024-06-28 11:55 minarca/minarca-server/minarca_server/tests/
+-rw-r--r-- root/root      1513 2024-06-28 11:55 minarca/minarca-server/minarca_server/tests/__init__.py
+-rw-r--r-- root/root       395 2024-06-28 11:55 minarca/minarca-server/minarca_server/tests/ssh_host_rsa_key.pub
+-rw-r--r-- root/root       875 2024-06-28 11:55 minarca/minarca-server/minarca_server/tests/test_main.py
+-rw-r--r-- root/root      5091 2024-06-28 11:55 minarca/minarca-server/minarca_server/tests/test_shell.py
+-rw-r--r-- root/root        66 2024-06-28 11:55 minarca/minarca-server/pyproject.toml
+-rw-r--r-- root/root      1651 2024-06-28 11:55 minarca/minarca-server/setup.py
+-rw-r--r-- root/root      1078 2024-06-28 11:55 minarca/minarca-server/tox.ini
+drwxr-xr-x root/root         0 2024-06-28 20:49 minarca/minarca-server/.eggs/
+-rw-r--r-- root/root       211 2024-06-28 20:49 minarca/minarca-server/.eggs/README.txt
+drwxr-xr-x root/root         0 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/
+drwxr-xr-x root/root         0 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/
+-rw-r--r-- root/root      5891 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/__init__.py
+-rw-r--r-- root/root        98 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/__main__.py
+-rw-r--r-- root/root      2845 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/_cli.py
+-rw-r--r-- root/root      2696 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/_entrypoints.py
+-rw-r--r-- root/root      1067 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/_overrides.py
+-rw-r--r-- root/root       845 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/_types.py
+-rw-r--r-- root/root      1575 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/_version_cls.py
+-rw-r--r-- root/root      7237 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/config.py
+-rw-r--r-- root/root      1867 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/discover.py
+-rw-r--r-- root/root      3100 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/file_finder.py
+-rw-r--r-- root/root      4287 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/file_finder_git.py
+-rw-r--r-- root/root      2293 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/file_finder_hg.py
+-rw-r--r-- root/root      9599 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/git.py
+-rw-r--r-- root/root      1776 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/hacks.py
+-rw-r--r-- root/root      6128 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/hg.py
+-rw-r--r-- root/root      4166 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/hg_git.py
+-rw-r--r-- root/root      3620 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/integration.py
+-rw-r--r-- root/root       585 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/scm_workdir.py
+-rw-r--r-- root/root      5117 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/utils.py
+-rw-r--r-- root/root     17034 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/version.py
+drwxr-xr-x root/root         0 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/_integration/
+-rw-r--r-- root/root         0 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/_integration/__init__.py
+-rw-r--r-- root/root      2838 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/_integration/pyproject_reading.py
+-rw-r--r-- root/root       530 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/_integration/setuptools.py
+drwxr-xr-x root/root         0 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/_integration/__pycache__/
+-rw-r--r-- root/root       226 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/_integration/__pycache__/__init__.cpython-311.pyc
+-rw-r--r-- root/root      4729 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/_integration/__pycache__/pyproject_reading.cpython-311.pyc
+-rw-r--r-- root/root      1164 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/_integration/__pycache__/setuptools.cpython-311.pyc
+drwxr-xr-x root/root         0 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/__pycache__/
+-rw-r--r-- root/root      7490 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/__pycache__/__init__.cpython-311.pyc
+-rw-r--r-- root/root      4937 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/__pycache__/_entrypoints.cpython-311.pyc
+-rw-r--r-- root/root     10200 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/__pycache__/utils.cpython-311.pyc
+-rw-r--r-- root/root     24815 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/__pycache__/version.cpython-311.pyc
+-rw-r--r-- root/root      2608 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/__pycache__/_version_cls.cpython-311.pyc
+-rw-r--r-- root/root     10340 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/__pycache__/config.cpython-311.pyc
+-rw-r--r-- root/root      1608 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/__pycache__/_overrides.cpython-311.pyc
+-rw-r--r-- root/root      3060 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/__pycache__/discover.cpython-311.pyc
+-rw-r--r-- root/root      5567 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/__pycache__/integration.cpython-311.pyc
+-rw-r--r-- root/root     13790 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/__pycache__/git.cpython-311.pyc
+-rw-r--r-- root/root      1686 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/__pycache__/scm_workdir.cpython-311.pyc
+-rw-r--r-- root/root      6528 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/__pycache__/file_finder_git.cpython-311.pyc
+-rw-r--r-- root/root      5139 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/__pycache__/file_finder.cpython-311.pyc
+drwxr-xr-x root/root         0 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/EGG-INFO/
+-rw-r--r-- root/root      1023 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/EGG-INFO/LICENSE
+-rw-r--r-- root/root        92 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/EGG-INFO/WHEEL
+-rw-r--r-- root/root      1734 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/EGG-INFO/entry_points.txt
+-rw-r--r-- root/root        15 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/EGG-INFO/top_level.txt
+-rw-r--r-- root/root         1 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/EGG-INFO/zip-safe
+-rw-rw-r-- root/root      2575 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/EGG-INFO/RECORD
+-rw-r--r-- root/root     24836 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/EGG-INFO/PKG-INFO
+-rw-r--r-- root/root       102 2024-06-28 20:49 minarca/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/EGG-INFO/requires.txt
+drwxr-xr-x root/root         0 2024-06-28 20:49 minarca/minarca-server/.eggs/typing_extensions-4.12.2-py3.11.egg/
+-rw-r--r-- root/root    134451 2024-06-28 20:49 minarca/minarca-server/.eggs/typing_extensions-4.12.2-py3.11.egg/typing_extensions.py
+drwxr-xr-x root/root         0 2024-06-28 20:49 minarca/minarca-server/.eggs/typing_extensions-4.12.2-py3.11.egg/EGG-INFO/
+-rw-r--r-- root/root     13936 2024-06-28 20:49 minarca/minarca-server/.eggs/typing_extensions-4.12.2-py3.11.egg/EGG-INFO/LICENSE
+-rw-r--r-- root/root        81 2024-06-28 20:49 minarca/minarca-server/.eggs/typing_extensions-4.12.2-py3.11.egg/EGG-INFO/WHEEL
+-rw-r--r-- root/root       418 2024-06-28 20:49 minarca/minarca-server/.eggs/typing_extensions-4.12.2-py3.11.egg/EGG-INFO/RECORD
+-rw-r--r-- root/root      3018 2024-06-28 20:49 minarca/minarca-server/.eggs/typing_extensions-4.12.2-py3.11.egg/EGG-INFO/PKG-INFO
+drwxr-xr-x root/root         0 2024-06-28 21:21 minarca/minarca-server/minarca_server.egg-info/
+-rw-r--r-- root/root       550 2024-06-28 21:21 minarca/minarca-server/minarca_server.egg-info/PKG-INFO
+-rw-r--r-- root/root         1 2024-06-28 21:21 minarca/minarca-server/minarca_server.egg-info/dependency_links.txt
+-rw-r--r-- root/root       102 2024-06-28 21:21 minarca/minarca-server/minarca_server.egg-info/entry_points.txt
+-rw-r--r-- root/root       125 2024-06-28 21:21 minarca/minarca-server/minarca_server.egg-info/requires.txt
+-rw-r--r-- root/root        15 2024-06-28 21:21 minarca/minarca-server/minarca_server.egg-info/top_level.txt
+-rw-r--r-- root/root      1614 2024-06-28 21:21 minarca/minarca-server/minarca_server.egg-info/SOURCES.txt
+drwxr-xr-x root/root         0 2024-06-28 20:51 minarca/minarca-server/dist/
+-rw-r--r-- root/root    170615 2024-06-28 20:49 minarca/minarca-server/dist/minarca_server-6.0.0b3.tar.gz
+-rw-r--r-- root/root    177513 2024-06-28 20:49 minarca/minarca-server/dist/minarca_server-6.0.0b3-1.src.rpm
+-rw-r--r-- root/root    202892 2024-06-28 20:49 minarca/minarca-server/dist/minarca_server-6.0.0b3-1.noarch.rpm
+-rw-r--r-- root/root      1032 2024-06-28 21:21 minarca/minarca-server/dist/minarca_server.spec
+-rw-r--r-- root/root       101 2024-06-28 11:55 minarca/sonar-project.properties
 + STATUS=0
 + '[' 0 -ne 0 ']'
 + cd minarca-server
-+ /usr/bin/chmod -Rf a+rX,u+w,g-w,o-w .
-+ RPM_EC=0
-++ jobs -p
-+ exit 0
-Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.eBr2YF
-+ umask 022
-+ cd /builddir/build/BUILD
-+ cd minarca-server
-+ python3.11 setup.py build
-/usr/lib/python3.11/site-packages/setuptools/installer.py:27: SetuptoolsDeprecationWarning: setuptools.installer is deprecated. Requirements should be satisfied by a PEP 517 installer.
-  warnings.warn(
-Traceback (most recent call last):
-  File "/builddir/build/BUILD/minarca-server/setup.py", line 13, in <module>
-    setuptools.setup(
-  File "/usr/lib/python3.11/site-packages/setuptools/__init__.py", line 87, in setup
-    return distutils.core.setup(**attrs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.11/site-packages/setuptools/_distutils/core.py", line 147, in setup
-    _setup_distribution = dist = klass(attrs)
-                                 ^^^^^^^^^^^^
-  File "/usr/lib/python3.11/site-packages/setuptools/dist.py", line 476, in __init__
-    _Distribution.__init__(
-  File "/usr/lib/python3.11/site-packages/setuptools/_distutils/dist.py", line 282, in __init__
-    self.finalize_options()
-  File "/usr/lib/python3.11/site-packages/setuptools/dist.py", line 900, in finalize_options
-    ep(self)
-  File "/usr/lib/python3.11/site-packages/setuptools/dist.py", line 920, in _finalize_setup_keywords
-    ep.load()(self, ep.name, value)
-  File "/builddir/build/BUILD/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/integration.py", line 91, in version_keyword
-    _assign_version(dist, config)
-  File "/builddir/build/BUILD/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/integration.py", line 63, in _assign_version
-    _version_missing(config)
-  File "/builddir/build/BUILD/minarca-server/.eggs/setuptools_scm-7.1.0-py3.11.egg/setuptools_scm/__init__.py", line 108, in _version_missing
-    raise LookupError(
-LookupError: setuptools-scm was unable to detect version for /builddir/build/BUILD.
-
-Make sure you're either building from a fully intact git repository or PyPI tarballs. Most other sources (such as GitHub's tarballs, a git checkout without the .git folder) don't contain the necessary metadata and will not work.
-
-For example, if you're using pip, instead of https://github.com/user/proj/archive/master.zip use git+https://github.com/user/proj.git#egg=proj
+/var/tmp/rpm-tmp.AP3iaU: line 38: cd: minarca-server: No such file or directory
+error: Bad exit status from /var/tmp/rpm-tmp.AP3iaU (%prep)
+    Bad exit status from /var/tmp/rpm-tmp.AP3iaU (%prep)
 
 
 RPM build errors:
-error: Bad exit status from /var/tmp/rpm-tmp.eBr2YF (%build)
-    Bad exit status from /var/tmp/rpm-tmp.eBr2YF (%build)
 Finish: rpmbuild minarca-server-6.0.0b3-1.src.rpm
 Finish: build phase for minarca-server-6.0.0b3-1.src.rpm
-ERROR: Exception(/opt/minarca-rpm/rpmbuilds/6.0.0b3/SRPMS/minarca-server-6.0.0b3-1.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 13 seconds
+ERROR: Exception(/opt/minarca-rpm/rpmbuilds/6.0.0b3/SRPMS/minarca-server-6.0.0b3-1.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 14 seconds
 INFO: Results and/or logs in: /opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS-TMP/
 ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M f286def0db4747918b2c04db8ee58e80 -D /var/lib/mock/rhel+epel-9-x86_64/root -a -u mockbuild --capability=cap_ipc_lock --bind=/tmp/mock-resolv.pv1dy8kq:/etc/resolv.conf --bind=/dev/mapper/control --bind=/dev/fuse --bind=/dev/loop-control --bind=/dev/loop0 --bind=/dev/loop1 --bind=/dev/loop2 --bind=/dev/loop3 --bind=/dev/loop4 --bind=/dev/loop5 --bind=/dev/loop6 --bind=/dev/loop7 --bind=/dev/loop8 --bind=/dev/loop9 --bind=/dev/loop10 --bind=/dev/loop11 --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/builddir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --resolv-conf=off bash --login -c '/usr/bin/rpmbuild -bb --noclean --target x86_64 --nodeps /builddir/build/SPECS/minarca-server.spec --nocheck'
+ # /usr/bin/systemd-nspawn -q -M ce30fd8a119a4311b5694f9fcc5b459b -D /var/lib/mock/rhel+epel-9-x86_64/root -a -u mockbuild --capability=cap_ipc_lock --bind=/tmp/mock-resolv.1_zilmib:/etc/resolv.conf --bind=/dev/mapper/control --bind=/dev/fuse --bind=/dev/loop-control --bind=/dev/loop0 --bind=/dev/loop1 --bind=/dev/loop2 --bind=/dev/loop3 --bind=/dev/loop4 --bind=/dev/loop5 --bind=/dev/loop6 --bind=/dev/loop7 --bind=/dev/loop8 --bind=/dev/loop9 --bind=/dev/loop10 --bind=/dev/loop11 --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/builddir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --resolv-conf=off bash --login -c '/usr/bin/rpmbuild -bb --noclean --target x86_64 --nodeps /builddir/build/SPECS/minarca-server.spec --nocheck'
 
 Directory walk started
 Directory walk done - 0 packages
