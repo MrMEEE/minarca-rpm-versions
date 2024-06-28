@@ -22,3 +22,4 @@ cachecontrol
 build
 crashtest
 rapidfuzz
+setuptools-scm
