@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-jaraco-classes-3.4.0-1.el9.src.rpm
+The lastest package built was python-zipp-3.19.2-1.el9.src.rpm
 
-The build completed at Fri Jun 28 08:25:20 PM CEST 2024
+The build completed at Fri Jun 28 08:26:15 PM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-jaraco-classes-3.4.0-1.el9.src.rpm.log)
+[Build Log](logs/python-zipp-3.19.2-1.el9.src.rpm.log)
 ## Package build status for version: 6.0.0b3
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -54,6 +54,6 @@ python3.11-shellingham-1.5.4-1.el9 | python-shellingham-1.5.4-1.el9.src.rpm | Bu
 python3.11-tomlkit-0.12.5-1.el9 | python-tomlkit-0.12.5-1.el9.src.rpm | Built | [Log](logs/python-tomlkit-0.12.5-1.el9.src.rpm.log)
 python3.11-trove-classifiers-2024.5.22-1.el9 | python-trove-classifiers-2024.5.22-1.el9.src.rpm | Built | [Log](logs/python-trove-classifiers-2024.5.22-1.el9.src.rpm.log)
 python3.11-virtualenv-20.26.3-1.el9 | python-virtualenv-20.26.3-1.el9.src.rpm | **Missing** | [Log](logs/python-virtualenv-20.26.3-1.el9.src.rpm.log)
-python3.11-zipp-3.19.2-1.el9 | python-zipp-3.19.2-1.el9.src.rpm | **Missing** |
+python3.11-zipp-3.19.2-1.el9 | python-zipp-3.19.2-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.19.2-1.el9.src.rpm.log)
 
-46 total packages, 35 packages built successfully, 11 packages left to fix
+46 total packages, 36 packages built successfully, 10 packages left to fix
