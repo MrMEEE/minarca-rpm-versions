@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-cleo-2.1.0-1.el9.src.rpm
+The lastest package built was python-dulwich-0.22.1-1.el9.src.rpm
 
-The build completed at Fri Jun 28 01:40:22 PM CEST 2024
+The build completed at Fri Jun 28 01:41:26 PM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-cleo-2.1.0-1.el9.src.rpm.log)
+[Build Log](logs/python-dulwich-0.22.1-1.el9.src.rpm.log)
 ## Package build status for version: 6.0.0b3
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -16,6 +16,7 @@ python3.11-cleo-2.1.0-1.el9 | python-cleo-2.1.0-1.el9.src.rpm | **Missing** | [L
 python3.11-crashtest-0.4.1-1.el9 | python-crashtest-0.4.1-1.el9.src.rpm | Built | [Log](logs/python-crashtest-0.4.1-1.el9.src.rpm.log)
 python3.11-dulwich-0.22.1-1.el9 | python-dulwich-0.22.1-1.el9.src.rpm | **Missing** | [Log](logs/python-dulwich-0.22.1-1.el9.src.rpm.log)
 python3.11-fastjsonschema-2.20.0-1.el9 | python-fastjsonschema-2.20.0-1.el9.src.rpm | **Missing** | [Log](logs/python-fastjsonschema-2.20.0-1.el9.src.rpm.log)
+python3.11-filelock-3.15.4-1.el9 | python-filelock-3.15.4-1.el9.src.rpm | **Missing** |
 python3.11-hatchling-1.25.0-1.el9 | python-hatchling-1.25.0-1.el9.src.rpm | **Missing** |
 python3.11-hatch-vcs-0.4.0-1.el9 | python-hatch-vcs-0.4.0-1.el9.src.rpm | **Missing** |
 python3.11-installer-0.7.0-1.el9 | python-installer-0.7.0-1.el9.src.rpm | Built | [Log](logs/python-installer-0.7.0-1.el9.src.rpm.log)
@@ -36,4 +37,4 @@ python3.11-tomlkit-0.12.5-1.el9 | python-tomlkit-0.12.5-1.el9.src.rpm | Built | 
 python3.11-trove-classifiers-2024.5.22-1.el9 | python-trove-classifiers-2024.5.22-1.el9.src.rpm | Built | [Log](logs/python-trove-classifiers-2024.5.22-1.el9.src.rpm.log)
 python3.11-virtualenv-20.26.3-1.el9 | python-virtualenv-20.26.3-1.el9.src.rpm | **Missing** | [Log](logs/python-virtualenv-20.26.3-1.el9.src.rpm.log)
 
-26 total packages, 10 packages built successfully, 16 packages left to fix
+27 total packages, 10 packages built successfully, 17 packages left to fix

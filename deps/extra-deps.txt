@@ -25,3 +25,4 @@ rapidfuzz
 setuptools-scm
 hatch-vcs
 hatchling
+filelock
