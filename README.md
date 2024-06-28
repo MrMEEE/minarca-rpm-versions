@@ -1,9 +1,9 @@
 ## Latest build
 The lastest package built was python-rapidfuzz-3.9.3-1.el9.src.rpm
 
-The build completed at Fri Jun 28 06:21:23 PM CEST 2024
+The build completed at Fri Jun 28 06:23:00 PM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
 [Build Log](logs/python-rapidfuzz-3.9.3-1.el9.src.rpm.log)
 ## Package build status for version: 6.0.0b3
@@ -36,7 +36,7 @@ python3.11-poetry-core-1.9.0-1.el9 | python-poetry-core-1.9.0-1.el9.src.rpm | Bu
 python3.11-poetry-plugin-export-1.8.0-1.el9 | python-poetry-plugin-export-1.8.0-1.el9.src.rpm | **Missing** | [Log](logs/python-poetry-plugin-export-1.8.0-1.el9.src.rpm.log)
 python3.11-ptyprocess-0.7.0-1.el9 | python-ptyprocess-0.7.0-1.el9.src.rpm | Built | [Log](logs/python-ptyprocess-0.7.0-1.el9.src.rpm.log)
 python3.11-pyproject-hooks-1.1.0-1.el9 | python-pyproject-hooks-1.1.0-1.el9.src.rpm | Built | [Log](logs/python-pyproject-hooks-1.1.0-1.el9.src.rpm.log)
-python3.11-rapidfuzz-3.9.3-1.el9 | python-rapidfuzz-3.9.3-1.el9.src.rpm | **Missing** | [Log](logs/python-rapidfuzz-3.9.3-1.el9.src.rpm.log)
+python3.11-rapidfuzz-3.9.3-1.el9 | python-rapidfuzz-3.9.3-1.el9.src.rpm | Built | [Log](logs/python-rapidfuzz-3.9.3-1.el9.src.rpm.log)
 python3.11-requests-toolbelt-1.0.0-1.el9 | python-requests-toolbelt-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-requests-toolbelt-1.0.0-1.el9.src.rpm.log)
 python3.11-scikit-build-0.17.6-1.el9 | python-scikit-build-0.17.6-1.el9.src.rpm | Built | [Log](logs/python-scikit-build-0.17.6-1.el9.src.rpm.log)
 python3.11-scikit-build-core-0.9.7-1.el9 | python-scikit-build-core-0.9.7-1.el9.src.rpm | Built | [Log](logs/python-scikit-build-core-0.9.7-1.el9.src.rpm.log)
@@ -46,4 +46,4 @@ python3.11-tomlkit-0.12.5-1.el9 | python-tomlkit-0.12.5-1.el9.src.rpm | Built | 
 python3.11-trove-classifiers-2024.5.22-1.el9 | python-trove-classifiers-2024.5.22-1.el9.src.rpm | Built | [Log](logs/python-trove-classifiers-2024.5.22-1.el9.src.rpm.log)
 python3.11-virtualenv-20.26.3-1.el9 | python-virtualenv-20.26.3-1.el9.src.rpm | **Missing** | [Log](logs/python-virtualenv-20.26.3-1.el9.src.rpm.log)
 
-36 total packages, 26 packages built successfully, 10 packages left to fix
+36 total packages, 27 packages built successfully, 9 packages left to fix
