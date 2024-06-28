@@ -1,4 +1,4 @@
-%global python3_pkgversion 3
+%global python3_pkgversion 3.11
 
 %define _unpackaged_files_terminate_build 0
 %define  debug_package %{nil}
@@ -15,7 +15,7 @@
 Summary: Minarca Backup Server
 Name: minarca-server
 Version: 6.0.0b3
-Release: 16%{dist}
+Release: 17%{dist}
 Source0: minarca-server-6.0.0b3.tar.gz
 #Patch0: awx-patch.patch-%{version}
 License: GPLv3
@@ -27,7 +27,8 @@ Prefix: %{_prefix}
 AutoReqProv: false
 
 #BuildRequires: make python%{python3_pkgversion} python%{python3_pkgversion}-devel nodejs npm gettext git python%{python3_pkgversion}-build rsync libpq libpq-devel 
-#BuildRequires: python3-poetry
+BuildRequires: git python%{python3_pkgversion} python%{python3_pkgversion}-devel
+#BuildRequires: python3.11-poetry
 
 
 #Requires: python%{python3_pkgversion} nodejs >= 18 npm gettext git nginx redis xmlsec1-openssl xmlsec1 podman sscg awx-receptor libpq 
@@ -77,6 +78,6 @@ mkdir -p /var/log/minarca
 
 
 %changelog
-* Fri Jun 28 2024 01:12:12 PM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 6.0.0b3
+* Fri Jun 28 2024 01:14:11 PM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 6.0.0b3
 - New version build: 6.0.0b3
 
