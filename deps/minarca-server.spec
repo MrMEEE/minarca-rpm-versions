@@ -7,7 +7,7 @@
 Summary: Minarca Web Server
 Name: %{name}
 Version: 6.0.0b3
-Release: 5%{dist}
+Release: 6%{dist}
 Source0: %{name}-6.0.0b3.tar.gz
 License: UNKNOWN
 Group: Development/Libraries
@@ -45,7 +45,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %pre
 /usr/bin/getent group %{service_group} >/dev/null || /usr/sbin/groupadd --system %{service_group}
-/usr/bin/getent passwd %{service_user} >/dev/null || /usr/sbin/useradd --no-create-home --system -g %{service_group} --home-dir %{service_homedir} -s /bin/bash %{service_user}
+/usr/bin/getent passwd %{service_user} >/dev/null || /usr/sbin/useradd --no-create-home --system -g %{service_group} --home-dir /opt/minarca -s /bin/bash %{service_user}
 /usr/sbin/usermod -s /bin/bash %{service_user}
 
 %files -f INSTALLED_FILES
@@ -59,7 +59,7 @@ rm -rf $RPM_BUILD_ROOT
 %attr(0644,root,root) /etc/sysctl.d/00-minarca-server-userns.conf
 
 %changelog
-* Fri Jun 28 2024 10:21:46 PM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 6.0.0b3
+* Fri Jun 28 2024 10:57:45 PM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 6.0.0b3
 - New version build: 6.0.0b3
 
 
