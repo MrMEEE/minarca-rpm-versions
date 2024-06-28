@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-jeepney-0.8.0-1.el9.src.rpm
+The lastest package built was python-importlib-metadata-8.0.0-1.el9.src.rpm
 
-The build completed at Fri Jun 28 08:20:27 PM CEST 2024
+The build completed at Fri Jun 28 08:21:32 PM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-jeepney-0.8.0-1.el9.src.rpm.log)
+[Build Log](logs/python-importlib-metadata-8.0.0-1.el9.src.rpm.log)
 ## Package build status for version: 6.0.0b3
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
