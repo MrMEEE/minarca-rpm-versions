@@ -20,3 +20,5 @@ crashtest
 cleo
 cachecontrol
 build
+crashtest
+rapidfuzz
