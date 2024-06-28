@@ -1,15 +1,15 @@
 ## Latest build
-The lastest package built was python-jeepney-0.8.0-1.el9.src.rpm
+The lastest package built was python-backports-tarfile-1.2.0-1.el9.src.rpm
 
-The build completed at Fri Jun 28 08:23:38 PM CEST 2024
+The build completed at Fri Jun 28 08:24:18 PM CEST 2024
 
 The build was successful.
 
-[Build Log](logs/python-jeepney-0.8.0-1.el9.src.rpm.log)
+[Build Log](logs/python-backports-tarfile-1.2.0-1.el9.src.rpm.log)
 ## Package build status for version: 6.0.0b3
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
-python3.11-backports-tarfile-1.2.0-1.el9 | python-backports-tarfile-1.2.0-1.el9.src.rpm | **Missing** |
+python3.11-backports-tarfile-1.2.0-1.el9 | python-backports-tarfile-1.2.0-1.el9.src.rpm | Built | [Log](logs/python-backports-tarfile-1.2.0-1.el9.src.rpm.log)
 python3.11-build-1.2.1-1.el9 | python-build-1.2.1-1.el9.src.rpm | Built | [Log](logs/python-build-1.2.1-1.el9.src.rpm.log)
 python3.11-cachecontrol-0.14.0-1.el9 | python-cachecontrol-0.14.0-1.el9.src.rpm | Built | [Log](logs/python-cachecontrol-0.14.0-1.el9.src.rpm.log)
 python3.11-calver-2022.6.26-1.el9 | python-calver-2022.6.26-1.el9.src.rpm | Built | [Log](logs/python-calver-2022.6.26-1.el9.src.rpm.log)
@@ -56,4 +56,4 @@ python3.11-trove-classifiers-2024.5.22-1.el9 | python-trove-classifiers-2024.5.2
 python3.11-virtualenv-20.26.3-1.el9 | python-virtualenv-20.26.3-1.el9.src.rpm | **Missing** | [Log](logs/python-virtualenv-20.26.3-1.el9.src.rpm.log)
 python3.11-zipp-3.19.2-1.el9 | python-zipp-3.19.2-1.el9.src.rpm | **Missing** |
 
-46 total packages, 34 packages built successfully, 12 packages left to fix
+46 total packages, 35 packages built successfully, 11 packages left to fix
