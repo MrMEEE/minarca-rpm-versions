@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-shellingham-1.5.4-1.el9.src.rpm
+The lastest package built was python-tomlkit-0.12.5-1.el9.src.rpm
 
-The build completed at Fri Jun 28 01:38:12 PM CEST 2024
+The build completed at Fri Jun 28 01:38:39 PM CEST 2024
 
 The build was successful.
 
-[Build Log](logs/python-shellingham-1.5.4-1.el9.src.rpm.log)
+[Build Log](logs/python-tomlkit-0.12.5-1.el9.src.rpm.log)
 ## Package build status for version: 6.0.0b3
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -32,8 +32,8 @@ python3.11-rapidfuzz-3.9.3-1.el9 | python-rapidfuzz-3.9.3-1.el9.src.rpm | **Miss
 python3.11-requests-toolbelt-1.0.0-1.el9 | python-requests-toolbelt-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-requests-toolbelt-1.0.0-1.el9.src.rpm.log)
 python3.11-setuptools-scm-8.1.0-1.el9 | python-setuptools-scm-8.1.0-1.el9.src.rpm | **Missing** |
 python3.11-shellingham-1.5.4-1.el9 | python-shellingham-1.5.4-1.el9.src.rpm | Built | [Log](logs/python-shellingham-1.5.4-1.el9.src.rpm.log)
-python3.11-tomlkit-0.12.5-1.el9 | python-tomlkit-0.12.5-1.el9.src.rpm | **Missing** |
+python3.11-tomlkit-0.12.5-1.el9 | python-tomlkit-0.12.5-1.el9.src.rpm | Built | [Log](logs/python-tomlkit-0.12.5-1.el9.src.rpm.log)
 python3.11-trove-classifiers-2024.5.22-1.el9 | python-trove-classifiers-2024.5.22-1.el9.src.rpm | Built | [Log](logs/python-trove-classifiers-2024.5.22-1.el9.src.rpm.log)
 python3.11-virtualenv-20.26.3-1.el9 | python-virtualenv-20.26.3-1.el9.src.rpm | **Missing** |
 
-26 total packages, 9 packages built successfully, 17 packages left to fix
+26 total packages, 10 packages built successfully, 16 packages left to fix
