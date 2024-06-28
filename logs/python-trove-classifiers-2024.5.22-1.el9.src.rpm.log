@@ -47,11 +47,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/      [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                 2.9 MB/s | 3.0 kB     00:00    
-/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/      [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                 756 kB/s | 3.9 kB     00:00    
+/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/      [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                 1.7 MB/s | 4.3 kB     00:00    
 Red Hat Enterprise Linux - BaseOS             [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                         18 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream          [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                      23 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linu     [         ===                            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                        24 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x     [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           144 kB/s |  38 kB     00:00    
+Red Hat Enterprise Linux - AppStream          [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                      19 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linu     [         ===                            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                        19 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x     [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           368 kB/s |  38 kB     00:00    
 Dependencies resolved.
 =========================================================================================================================
  Package                                Architecture      Version                     Repository                    Size
@@ -171,7 +171,7 @@ Start: rpmbuild python-trove-classifiers-2024.5.22-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1719532800
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.t82vt8
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.XPqVYr
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -185,7 +185,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.t82vt8
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.hokzAH
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.JPmNrk
 + umask 022
 + cd /builddir/build/BUILD
 + cd trove_classifiers-2024.5.22
@@ -220,10 +220,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/      [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                 2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS             [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                         19 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream          [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                      23 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linu     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                        24 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x     [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           363 kB/s |  38 kB     00:00    
+Red Hat Enterprise Linux - BaseOS             [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                         15 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream          [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                      20 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linu     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                        19 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x     [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x     [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                            73 kB/s |  38 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9_4.1.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9_4.1.x86_64 is already installed.
@@ -263,7 +263,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1719532800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.WnlPuX
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.3Lvbhj
 + umask 022
 + cd /builddir/build/BUILD
 + cd trove_classifiers-2024.5.22
@@ -302,46 +302,414 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/      [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                 2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS             [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                         20 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream          [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                      23 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linu     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                        23 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x     [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           364 kB/s |  38 kB     00:00    
+Red Hat Enterprise Linux - BaseOS             [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                         18 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream          [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                      18 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linu     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                        20 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x     [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x     [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                            73 kB/s |  38 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9_4.1.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9_4.1.x86_64 is already installed.
-No matching package to install: 'python3.11dist(calver)'
 Package python3.11-packaging-24.1-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
-Not all dependencies satisfied
-Error: Some packages could not be found.
-Finish: rpmbuild python-trove-classifiers-2024.5.22-1.el9.src.rpm
-Finish: build phase for python-trove-classifiers-2024.5.22-1.el9.src.rpm
-ERROR: Exception(/opt/minarca-rpm/rpmbuilds/6.0.0b3/SRPMS/python-trove-classifiers-2024.5.22-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 16 seconds
-INFO: Results and/or logs in: /opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS-TMP/
-ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M f9694160648540c48ae2ff2966f3e1bd -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.wdt9nyxx:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-trove-classifiers-2024.5.22-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
+Dependencies resolved.
+=========================================================================================================================
+ Package                      Architecture  Version                   Repository                                    Size
+=========================================================================================================================
+Installing:
+ [1mpython3.11-calver           [m noarch        2022.6.26-1.el9           _opt_minarcarpm_rpmbuilds_600b3_RPMS_         16 k
+ [1mpython3.11-setuptools       [m noarch        65.5.1-2.el9              appstream                                    1.7 M
+
+Transaction Summary
+=========================================================================================================================
+Install  2 Packages
+
+Total size: 1.7 M
+Installed size: 8.6 M
+Downloading Packages:
+[SKIPPED] python3.11-setuptools-65.5.1-2.el9.noarch.rpm: Already downloaded                                             
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :  [==============================================                                              ] 1/1  Preparing        :                                                                                                 1/1 
+  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [                                                   ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [=                                                  ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [==                                                 ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [===                                                ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [====                                               ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [=====                                              ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [======                                             ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [=======                                            ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [========                                           ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [=========                                          ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [==========                                         ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [===========                                        ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [============                                       ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [=============                                      ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [==============                                     ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [===============                                    ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [================                                   ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [=================                                  ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [==================                                 ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [===================                                ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [====================                               ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [=====================                              ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [======================                             ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [=======================                            ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [========================                           ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [=========================                          ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [==========================                         ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [===========================                        ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [============================                       ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [=============================                      ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [==============================                     ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [===============================                    ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [================================                   ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [=================================                  ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [==================================                 ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [===================================                ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [====================================               ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [=====================================              ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [======================================             ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [=======================================            ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [========================================           ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [=========================================          ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [==========================================         ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [===========================================        ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [============================================       ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [=============================================      ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [==============================================     ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [===============================================    ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [================================================   ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [=================================================  ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch [================================================== ] 1/2  Installing       : python3.11-setuptools-65.5.1-2.el9.noarch                                                       1/2 
+  Installing       : python3.11-calver-2022.6.26-1.el9.noarch [                                                    ] 2/2  Installing       : python3.11-calver-2022.6.26-1.el9.noarch [=                                                   ] 2/2  Installing       : python3.11-calver-2022.6.26-1.el9.noarch [==============================                      ] 2/2  Installing       : python3.11-calver-2022.6.26-1.el9.noarch [===================================                 ] 2/2  Installing       : python3.11-calver-2022.6.26-1.el9.noarch [====================================                ] 2/2  Installing       : python3.11-calver-2022.6.26-1.el9.noarch [=====================================               ] 2/2  Installing       : python3.11-calver-2022.6.26-1.el9.noarch [======================================              ] 2/2  Installing       : python3.11-calver-2022.6.26-1.el9.noarch [=========================================           ] 2/2  Installing       : python3.11-calver-2022.6.26-1.el9.noarch [==========================================          ] 2/2  Installing       : python3.11-calver-2022.6.26-1.el9.noarch [===========================================         ] 2/2  Installing       : python3.11-calver-2022.6.26-1.el9.noarch [=================================================== ] 2/2  Installing       : python3.11-calver-2022.6.26-1.el9.noarch                                                        2/2 
+  Running scriptlet: python3.11-calver-2022.6.26-1.el9.noarch                                                        2/2 
+  Verifying        : python3.11-calver-2022.6.26-1.el9.noarch                                                        1/2 
+  Verifying        : python3.11-setuptools-65.5.1-2.el9.noarch                                                       2/2 
+Installed products updated.
+
+Installed:
+  python3.11-calver-2022.6.26-1.el9.noarch                   python3.11-setuptools-65.5.1-2.el9.noarch                  
+
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1719532800
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.P5mIB3
++ umask 022
++ cd /builddir/build/BUILD
++ cd trove_classifiers-2024.5.22
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ true
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/trove_classifiers-2024.5.22/.pyproject-builddir-3.11
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/trove_classifiers-2024.5.22/.pyproject-builddir-3.11
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/trove_classifiers-2024.5.22/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-trove-classifiers-2024.5.22-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling setuptools from build-system.requires
+Requirement satisfied: setuptools
+   (installed: setuptools 65.5.1)
+Handling calver from build-system.requires
+Requirement satisfied: calver
+   (installed: calver 2022.6.26)
+Handling wheel from get_requires_for_build_wheel
+Requirement not satisfied: wheel
+Handling calver from get_requires_for_build_wheel
+Requirement satisfied: calver
+   (installed: calver 2022.6.26)
+Exiting dependency generation pass: get_requires_for_build_wheel
++ cat /builddir/build/BUILD/python-trove-classifiers-2024.5.22-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv '*.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Wrote: /builddir/build/SRPMS/python-trove-classifiers-2024.5.22-1.el9.buildreqs.nosrc.rpm
+INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
 
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
-/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                 2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                         20 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                      23 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                        23 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                           364 kB/s |  38 kB     00:00    
+/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/      [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                 2.9 MB/s | 3.0 kB     00:00    
+Red Hat Enterprise Linux - BaseOS             [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                         17 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream          [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                      19 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linu     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                        20 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x     [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           259 kB/s |  38 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9_4.1.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9_4.1.x86_64 is already installed.
-No matching package to install: 'python3.11dist(calver)'
+Package python3.11-calver-2022.6.26-1.el9.noarch is already installed.
 Package python3.11-packaging-24.1-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
-Not all dependencies satisfied
-Error: Some packages could not be found.
+Package python3.11-setuptools-65.5.1-2.el9.noarch is already installed.
+Dependencies resolved.
+=========================================================================================================================
+ Package                          Architecture           Version                         Repository                 Size
+=========================================================================================================================
+Installing:
+ [1mpython3.11-wheel                [m noarch                 0.38.4-3.el9                    appstream                 109 k
 
+Transaction Summary
+=========================================================================================================================
+Install  1 Package
+
+Total size: 109 k
+Installed size: 290 k
+Downloading Packages:
+[SKIPPED] python3.11-wheel-0.38.4-3.el9.noarch.rpm: Already downloaded                                                  
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                                                                 1/1 
+  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [                                                        ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [=                                                       ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [=====                                                   ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [==========                                              ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [=============                                           ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [================                                        ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [====================                                    ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [======================                                  ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [=======================                                 ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [==========================                              ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [===========================                             ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [=============================                           ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [===============================                         ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [=================================                       ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [===================================                     ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [====================================                    ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [======================================                  ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [========================================                ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [==========================================              ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [===========================================             ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [============================================            ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [===============================================         ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [================================================        ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [==================================================      ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [===================================================     ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [====================================================    ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [======================================================= ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch                                                            1/1 
+  Running scriptlet: python3.11-wheel-0.38.4-3.el9.noarch                                                            1/1 
+  Verifying        : python3.11-wheel-0.38.4-3.el9.noarch                                                            1/1 
+Installed products updated.
+
+Installed:
+  python3.11-wheel-0.38.4-3.el9.noarch                                                                                   
+
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1719532800
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.VWLjmy
++ umask 022
++ cd /builddir/build/BUILD
++ cd trove_classifiers-2024.5.22
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ true
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/trove_classifiers-2024.5.22/.pyproject-builddir-3.11
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/trove_classifiers-2024.5.22/.pyproject-builddir-3.11
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/trove_classifiers-2024.5.22/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-trove-classifiers-2024.5.22-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling setuptools from build-system.requires
+Requirement satisfied: setuptools
+   (installed: setuptools 65.5.1)
+Handling calver from build-system.requires
+Requirement satisfied: calver
+   (installed: calver 2022.6.26)
+Handling wheel from get_requires_for_build_wheel
+Requirement satisfied: wheel
+   (installed: wheel 0.38.4)
+Handling calver from get_requires_for_build_wheel
+Requirement satisfied: calver
+   (installed: calver 2022.6.26)
+running dist_info
+creating trove_classifiers.egg-info
+writing trove_classifiers.egg-info/PKG-INFO
+writing dependency_links to trove_classifiers.egg-info/dependency_links.txt
+writing top-level names to trove_classifiers.egg-info/top_level.txt
+writing manifest file 'trove_classifiers.egg-info/SOURCES.txt'
+reading manifest file 'trove_classifiers.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'trove_classifiers.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/trove_classifiers-2024.5.22/trove_classifiers-2024.5.22.dist-info'
++ cat /builddir/build/BUILD/python-trove-classifiers-2024.5.22-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv trove_classifiers-2024.5.22.dist-info/
+removed 'trove_classifiers-2024.5.22.dist-info/top_level.txt'
+removed 'trove_classifiers-2024.5.22.dist-info/METADATA'
+removed 'trove_classifiers-2024.5.22.dist-info/LICENSE'
+removed directory 'trove_classifiers-2024.5.22.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Wrote: /builddir/build/SRPMS/python-trove-classifiers-2024.5.22-1.el9.buildreqs.nosrc.rpm
+INFO: Going to install missing dynamic buildrequires
+No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+Updating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use subscription-manager to register.
+
+/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/      [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                 2.9 MB/s | 3.0 kB     00:00    
+Red Hat Enterprise Linux - BaseOS             [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                         18 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream          [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                      20 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linu     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                        20 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x     [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           333 kB/s |  38 kB     00:00    
+Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
+Package python3.11-devel-3.11.7-1.el9_4.1.x86_64 is already installed.
+Package python3.11-devel-3.11.7-1.el9_4.1.x86_64 is already installed.
+Package python3.11-calver-2022.6.26-1.el9.noarch is already installed.
+Package python3.11-packaging-24.1-1.el9.noarch is already installed.
+Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
+Package python3.11-setuptools-65.5.1-2.el9.noarch is already installed.
+Package python3.11-wheel-0.38.4-3.el9.noarch is already installed.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1719532800
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.3YfFOW
++ umask 022
++ cd /builddir/build/BUILD
++ cd trove_classifiers-2024.5.22
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ true
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/trove_classifiers-2024.5.22/.pyproject-builddir-3.11
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/trove_classifiers-2024.5.22/.pyproject-builddir-3.11
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/trove_classifiers-2024.5.22/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-trove-classifiers-2024.5.22-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling setuptools from build-system.requires
+Requirement satisfied: setuptools
+   (installed: setuptools 65.5.1)
+Handling calver from build-system.requires
+Requirement satisfied: calver
+   (installed: calver 2022.6.26)
+Handling wheel from get_requires_for_build_wheel
+Requirement satisfied: wheel
+   (installed: wheel 0.38.4)
+Handling calver from get_requires_for_build_wheel
+Requirement satisfied: calver
+   (installed: calver 2022.6.26)
+running dist_info
+writing trove_classifiers.egg-info/PKG-INFO
+writing dependency_links to trove_classifiers.egg-info/dependency_links.txt
+writing top-level names to trove_classifiers.egg-info/top_level.txt
+reading manifest file 'trove_classifiers.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'trove_classifiers.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/trove_classifiers-2024.5.22/trove_classifiers-2024.5.22.dist-info'
++ cat /builddir/build/BUILD/python-trove-classifiers-2024.5.22-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv trove_classifiers-2024.5.22.dist-info/
+removed 'trove_classifiers-2024.5.22.dist-info/top_level.txt'
+removed 'trove_classifiers-2024.5.22.dist-info/METADATA'
+removed 'trove_classifiers-2024.5.22.dist-info/LICENSE'
+removed directory 'trove_classifiers-2024.5.22.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.ENiwD9
++ umask 022
++ cd /builddir/build/BUILD
++ cd trove_classifiers-2024.5.22
++ mkdir -p /builddir/build/BUILD/trove_classifiers-2024.5.22/.pyproject-builddir-3.11
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/trove_classifiers-2024.5.22/.pyproject-builddir-3.11
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_wheel.py /builddir/build/BUILD/trove_classifiers-2024.5.22/pyproject-wheeldir-3.11
+Processing /builddir/build/BUILD/trove_classifiers-2024.5.22
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  running dist_info
+  creating /builddir/build/BUILD/trove_classifiers-2024.5.22/.pyproject-builddir-3.11/pip-modern-metadata-pv05la0f/trove_classifiers.egg-info
+  writing /builddir/build/BUILD/trove_classifiers-2024.5.22/.pyproject-builddir-3.11/pip-modern-metadata-pv05la0f/trove_classifiers.egg-info/PKG-INFO
+  writing dependency_links to /builddir/build/BUILD/trove_classifiers-2024.5.22/.pyproject-builddir-3.11/pip-modern-metadata-pv05la0f/trove_classifiers.egg-info/dependency_links.txt
+  writing top-level names to /builddir/build/BUILD/trove_classifiers-2024.5.22/.pyproject-builddir-3.11/pip-modern-metadata-pv05la0f/trove_classifiers.egg-info/top_level.txt
+  writing manifest file '/builddir/build/BUILD/trove_classifiers-2024.5.22/.pyproject-builddir-3.11/pip-modern-metadata-pv05la0f/trove_classifiers.egg-info/SOURCES.txt'
+  reading manifest file '/builddir/build/BUILD/trove_classifiers-2024.5.22/.pyproject-builddir-3.11/pip-modern-metadata-pv05la0f/trove_classifiers.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE'
+  writing manifest file '/builddir/build/BUILD/trove_classifiers-2024.5.22/.pyproject-builddir-3.11/pip-modern-metadata-pv05la0f/trove_classifiers.egg-info/SOURCES.txt'
+  creating '/builddir/build/BUILD/trove_classifiers-2024.5.22/.pyproject-builddir-3.11/pip-modern-metadata-pv05la0f/trove_classifiers-2024.5.22.dist-info'
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: trove-classifiers
+  Building wheel for trove-classifiers (pyproject.toml): started
+  Running command Building wheel for trove-classifiers (pyproject.toml)
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build/lib
+  creating build/lib/trove_classifiers
+  copying src/trove_classifiers/__init__.py -> build/lib/trove_classifiers
+  copying src/trove_classifiers/__main__.py -> build/lib/trove_classifiers
+  copying src/trove_classifiers/py.typed -> build/lib/trove_classifiers
+  installing to build/bdist.linux-x86_64/wheel
+  running install
+  running install_lib
+  creating build/bdist.linux-x86_64
+  creating build/bdist.linux-x86_64/wheel
+  creating build/bdist.linux-x86_64/wheel/trove_classifiers
+  copying build/lib/trove_classifiers/__init__.py -> build/bdist.linux-x86_64/wheel/trove_classifiers
+  copying build/lib/trove_classifiers/__main__.py -> build/bdist.linux-x86_64/wheel/trove_classifiers
+  copying build/lib/trove_classifiers/py.typed -> build/bdist.linux-x86_64/wheel/trove_classifiers
+  running install_egg_info
+  running egg_info
+  writing src/trove_classifiers.egg-info/PKG-INFO
+  writing dependency_links to src/trove_classifiers.egg-info/dependency_links.txt
+  writing top-level names to src/trove_classifiers.egg-info/top_level.txt
+  reading manifest file 'src/trove_classifiers.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE'
+  writing manifest file 'src/trove_classifiers.egg-info/SOURCES.txt'
+  Copying src/trove_classifiers.egg-info to build/bdist.linux-x86_64/wheel/trove_classifiers-2024.5.22-py3.11.egg-info
+  running install_scripts
+  creating build/bdist.linux-x86_64/wheel/trove_classifiers-2024.5.22.dist-info/WHEEL
+  creating '/builddir/build/BUILD/trove_classifiers-2024.5.22/.pyproject-builddir-3.11/pip-wheel-w2e99uvo/tmpgbmt3_4k/trove_classifiers-2024.5.22-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+  adding 'trove_classifiers/__init__.py'
+  adding 'trove_classifiers/__main__.py'
+  adding 'trove_classifiers/py.typed'
+  adding 'trove_classifiers-2024.5.22.dist-info/LICENSE'
+  adding 'trove_classifiers-2024.5.22.dist-info/METADATA'
+  adding 'trove_classifiers-2024.5.22.dist-info/WHEEL'
+  adding 'trove_classifiers-2024.5.22.dist-info/top_level.txt'
+  adding 'trove_classifiers-2024.5.22.dist-info/RECORD'
+  removing build/bdist.linux-x86_64/wheel
+  Building wheel for trove-classifiers (pyproject.toml): finished with status 'done'
+  Created wheel for trove-classifiers: filename=trove_classifiers-2024.5.22-py3-none-any.whl size=13447 sha256=b906f560b18b3006ba5774478098b302cec533681200e8a32fd57eded971d4eb
+  Stored in directory: /builddir/.cache/pip/wheels/b7/5f/2c/1b92637fb194637f91dccc8583f79935373b38ca7daa498627
+Successfully built trove-classifiers
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.A90m2s
++ umask 022
++ cd /builddir/build/BUILD
++ '[' /builddir/build/BUILDROOT/python-trove-classifiers-2024.5.22-1.el9.x86_64 '!=' / ']'
++ rm -rf /builddir/build/BUILDROOT/python-trove-classifiers-2024.5.22-1.el9.x86_64
+++ dirname /builddir/build/BUILDROOT/python-trove-classifiers-2024.5.22-1.el9.x86_64
++ mkdir -p /builddir/build/BUILDROOT
++ mkdir /builddir/build/BUILDROOT/python-trove-classifiers-2024.5.22-1.el9.x86_64
++ cd trove_classifiers-2024.5.22
+++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
+++ ls /builddir/build/BUILD/trove_classifiers-2024.5.22/pyproject-wheeldir-3.11/trove_classifiers-2024.5.22-py3-none-any.whl
+++ xargs basename --multiple
++ specifier=trove_classifiers==2024.5.22
++ '[' -z trove_classifiers==2024.5.22 ']'
++ TMPDIR=/builddir/build/BUILD/trove_classifiers-2024.5.22/.pyproject-builddir-3.11
++ /usr/bin/python3.11 -m pip install --root /builddir/build/BUILDROOT/python-trove-classifiers-2024.5.22-1.el9.x86_64 --prefix /usr --no-deps --disable-pip-version-check --progress-bar off --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links /builddir/build/BUILD/trove_classifiers-2024.5.22/pyproject-wheeldir-3.11 trove_classifiers==2024.5.22
+Using pip 22.3.1 from /usr/lib/python3.11/site-packages/pip (python 3.11)
+Looking in links: /builddir/build/BUILD/trove_classifiers-2024.5.22/pyproject-wheeldir-3.11
+Processing ./pyproject-wheeldir-3.11/trove_classifiers-2024.5.22-py3-none-any.whl
+Installing collected packages: trove_classifiers
+Successfully installed trove_classifiers-2024.5.22
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
++ '[' -d /builddir/build/BUILDROOT/python-trove-classifiers-2024.5.22-1.el9.x86_64/usr/bin ']'
++ rm -f /builddir/build/BUILD/python-trove-classifiers-2024.5.22-1.el9.x86_64-3.11-pyproject-ghost-distinfo
++ site_dirs=()
++ '[' -d /builddir/build/BUILDROOT/python-trove-classifiers-2024.5.22-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ site_dirs+=("/usr/lib/python3.11/site-packages")
++ '[' /builddir/build/BUILDROOT/python-trove-classifiers-2024.5.22-1.el9.x86_64/usr/lib64/python3.11/site-packages '!=' /builddir/build/BUILDROOT/python-trove-classifiers-2024.5.22-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ '[' -d /builddir/build/BUILDROOT/python-trove-classifiers-2024.5.22-1.el9.x86_64/usr/lib64/python3.11/site-packages ']'
++ for site_dir in ${site_dirs[@]}
++ for distinfo in /builddir/build/BUILDROOT/python-trove-classifiers-2024.5.22-1.el9.x86_64$site_dir/*.dist-info
++ echo '%ghost /usr/lib/python3.11/site-packages/trove_classifiers-2024.5.22.dist-info'
++ sed -i s/pip/rpm/ /builddir/build/BUILDROOT/python-trove-classifiers-2024.5.22-1.el9.x86_64/usr/lib/python3.11/site-packages/trove_classifiers-2024.5.22.dist-info/INSTALLER
++ PYTHONPATH=/usr/lib/rpm/redhat
++ /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pyproject_preprocess_record.py --buildroot /builddir/build/BUILDROOT/python-trove-classifiers-2024.5.22-1.el9.x86_64 --record /builddir/build/BUILDROOT/python-trove-classifiers-2024.5.22-1.el9.x86_64/usr/lib/python3.11/site-packages/trove_classifiers-2024.5.22.dist-info/RECORD --output /builddir/build/BUILD/python-trove-classifiers-2024.5.22-1.el9.x86_64-3.11-pyproject-record
++ rm -fv /builddir/build/BUILDROOT/python-trove-classifiers-2024.5.22-1.el9.x86_64/usr/lib/python3.11/site-packages/trove_classifiers-2024.5.22.dist-info/RECORD
+removed '/builddir/build/BUILDROOT/python-trove-classifiers-2024.5.22-1.el9.x86_64/usr/lib/python3.11/site-packages/trove_classifiers-2024.5.22.dist-info/RECORD'
++ rm -fv /builddir/build/BUILDROOT/python-trove-classifiers-2024.5.22-1.el9.x86_64/usr/lib/python3.11/site-packages/trove_classifiers-2024.5.22.dist-info/REQUESTED
+removed '/builddir/build/BUILDROOT/python-trove-classifiers-2024.5.22-1.el9.x86_64/usr/lib/python3.11/site-packages/trove_classifiers-2024.5.22.dist-info/REQUESTED'
+++ wc -l /builddir/build/BUILD/python-trove-classifiers-2024.5.22-1.el9.x86_64-3.11-pyproject-ghost-distinfo
+++ cut -f1 '-d '
++ lines=1
++ '[' 1 -ne 1 ']'
++ RPM_PERCENTAGES_COUNT=8
++ /usr/bin/python3.11 /usr/lib/rpm/redhat/pyproject_save_files.py --output-files /builddir/build/BUILD/python-trove-classifiers-2024.5.22-1.el9.x86_64-3.11-pyproject-files --output-modules /builddir/build/BUILD/python-trove-classifiers-2024.5.22-1.el9.x86_64-3.11-pyproject-modules --buildroot /builddir/build/BUILDROOT/python-trove-classifiers-2024.5.22-1.el9.x86_64 --sitelib /usr/lib/python3.11/site-packages --sitearch /usr/lib64/python3.11/site-packages --python-version 3.11 --pyproject-record /builddir/build/BUILD/python-trove-classifiers-2024.5.22-1.el9.x86_64-3.11-pyproject-record --prefix /usr '*' +auto
++ /usr/bin/find-debuginfo -j4 --strict-build-id -m -i --build-id-seed 2024.5.22-1.el9 --unique-debug-suffix -2024.5.22-1.el9.x86_64 --unique-debug-src-base python-trove-classifiers-2024.5.22-1.el9.x86_64 --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 --remove-section .gnu.build.attributes -S debugsourcefiles.list /builddir/build/BUILD/trove_classifiers-2024.5.22
+find: 'debug': No such file or directory
++ /usr/lib/rpm/check-buildroot
++ /usr/lib/rpm/redhat/brp-ldconfig
++ /usr/lib/rpm/brp-compress
++ /usr/lib/rpm/redhat/brp-strip-lto /usr/bin/strip
++ /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
++ /usr/lib/rpm/redhat/brp-python-bytecompile '' 1 0
+Bytecompiling .py files below /builddir/build/BUILDROOT/python-trove-classifiers-2024.5.22-1.el9.x86_64/usr/lib/python3.11 using python3.11
++ /usr/lib/rpm/brp-python-hardlink
++ /usr/lib/rpm/redhat/brp-mangle-shebangs
+Processing files: python3.11-trove-classifiers-2024.5.22-1.el9.noarch
+Provides: python3.11-trove-classifiers = 2024.5.22-1.el9 python3.11dist(trove-classifiers) = 2024.5.22
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PartialHardlinkSets) <= 4.0.4-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires: python(abi) = 3.11
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/python-trove-classifiers-2024.5.22-1.el9.x86_64
+Wrote: /builddir/build/SRPMS/python-trove-classifiers-2024.5.22-1.el9.src.rpm
+Wrote: /builddir/build/RPMS/python3.11-trove-classifiers-2024.5.22-1.el9.noarch.rpm
+Finish: rpmbuild python-trove-classifiers-2024.5.22-1.el9.src.rpm
+Finish: build phase for python-trove-classifiers-2024.5.22-1.el9.src.rpm
+INFO: Done(/opt/minarca-rpm/rpmbuilds/6.0.0b3/SRPMS/python-trove-classifiers-2024.5.22-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 27 seconds
+INFO: Results and/or logs in: /opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS-TMP/
+Finish: run
 Directory walk started
-Directory walk done - 2 packages
+Directory walk done - 4 packages
 Temporary output repo path: /opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)

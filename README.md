@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-calver-2022.6.26-1.el9.src.rpm
+The lastest package built was python-trove-classifiers-2024.5.22-1.el9.src.rpm
 
-The build completed at Fri Jun 28 01:20:42 PM CEST 2024
+The build completed at Fri Jun 28 01:21:21 PM CEST 2024
 
 The build was successful.
 
-[Build Log](logs/python-calver-2022.6.26-1.el9.src.rpm.log)
+[Build Log](logs/python-trove-classifiers-2024.5.22-1.el9.src.rpm.log)
 ## Package build status for version: 6.0.0b3
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -19,6 +19,6 @@ python3.11-calver-2022.6.26-1.el9 | python-calver-2022.6.26-1.el9.src.rpm | Buil
 python3.11-packaging-24.1-1.el9 | python-packaging-24.1-1.el9.src.rpm | Built | [Log](logs/python-packaging-24.1-1.el9.src.rpm.log)
 python3.11-poetry-1.8.3-1.el9 | python-poetry-1.8.3-1.el9.src.rpm | **Missing** | [Log](logs/python-poetry-1.8.3-1.el9.src.rpm.log)
 python3.11-poetry-core-1.9.0-1.el9 | python-poetry-core-1.9.0-1.el9.src.rpm | Built | [Log](logs/python-poetry-core-1.9.0-1.el9.src.rpm.log)
-python3.11-trove-classifiers-2024.5.22-1.el9 | python-trove-classifiers-2024.5.22-1.el9.src.rpm | **Missing** | [Log](logs/python-trove-classifiers-2024.5.22-1.el9.src.rpm.log)
+python3.11-trove-classifiers-2024.5.22-1.el9 | python-trove-classifiers-2024.5.22-1.el9.src.rpm | Built | [Log](logs/python-trove-classifiers-2024.5.22-1.el9.src.rpm.log)
 
-11 total packages, 3 packages built successfully, 8 packages left to fix
+11 total packages, 4 packages built successfully, 7 packages left to fix
