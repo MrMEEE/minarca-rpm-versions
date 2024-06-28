@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-scikit-build
-Version:        0.18.0
+Version:        0.17.6
 Release:        %autorelease
 Summary:        Improved build system generator for Python C/C++/Fortran/Cython extensions
 

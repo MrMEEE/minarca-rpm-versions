@@ -29,3 +29,4 @@ filelock
 pathspec
 ptyprocess
 scikit-build
+scikit-build==0.17.6
