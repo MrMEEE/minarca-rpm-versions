@@ -44,3 +44,4 @@ jaraco-functools
 jeepney
 secretstorage
 zipp
+more-itertools
