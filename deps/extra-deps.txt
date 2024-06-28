@@ -34,3 +34,4 @@ msgpack
 cython
 hatch-fancy-pypi-readme
 distro
+cmake
