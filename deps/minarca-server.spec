@@ -24,6 +24,7 @@ Minarca is a self-hosted open source data backup software that allows you to man
 %setup -n minarca
 
 %build
+cd minarca-server
 python3.11 setup.py build
 
 %install
