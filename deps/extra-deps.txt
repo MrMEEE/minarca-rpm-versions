@@ -32,3 +32,4 @@ scikit-build
 scikit-build==0.17.6
 msgpack
 cython
+hatch-fancy-pypi-readme
