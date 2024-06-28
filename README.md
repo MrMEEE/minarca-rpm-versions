@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-poetry-1.8.3-1.el9.src.rpm
+The lastest package built was python-poetry-plugin-export-1.8.0-1.el9.src.rpm
 
-The build completed at Fri Jun 28 08:38:20 PM CEST 2024
+The build completed at Fri Jun 28 08:38:57 PM CEST 2024
 
 The build was successful.
 
-[Build Log](logs/python-poetry-1.8.3-1.el9.src.rpm.log)
+[Build Log](logs/python-poetry-plugin-export-1.8.0-1.el9.src.rpm.log)
 ## Package build status for version: 6.0.0b3
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -41,7 +41,7 @@ python3.11-pkginfo-1.11.1-1.el9 | python-pkginfo-1.11.1-1.el9.src.rpm | Built | 
 python3.11-platformdirs-4.2.2-1.el9 | python-platformdirs-4.2.2-1.el9.src.rpm | Built | [Log](logs/python-platformdirs-4.2.2-1.el9.src.rpm.log)
 python3.11-poetry-1.8.3-1.el9 | python-poetry-1.8.3-1.el9.src.rpm | Built | [Log](logs/python-poetry-1.8.3-1.el9.src.rpm.log)
 python3.11-poetry-core-1.9.0-1.el9 | python-poetry-core-1.9.0-1.el9.src.rpm | Built | [Log](logs/python-poetry-core-1.9.0-1.el9.src.rpm.log)
-python3.11-poetry-plugin-export-1.8.0-1.el9 | python-poetry-plugin-export-1.8.0-1.el9.src.rpm | **Missing** | [Log](logs/python-poetry-plugin-export-1.8.0-1.el9.src.rpm.log)
+python3.11-poetry-plugin-export-1.8.0-1.el9 | python-poetry-plugin-export-1.8.0-1.el9.src.rpm | Built | [Log](logs/python-poetry-plugin-export-1.8.0-1.el9.src.rpm.log)
 python3.11-ptyprocess-0.7.0-1.el9 | python-ptyprocess-0.7.0-1.el9.src.rpm | Built | [Log](logs/python-ptyprocess-0.7.0-1.el9.src.rpm.log)
 python3.11-pyproject-hooks-1.1.0-1.el9 | python-pyproject-hooks-1.1.0-1.el9.src.rpm | Built | [Log](logs/python-pyproject-hooks-1.1.0-1.el9.src.rpm.log)
 python3.11-rapidfuzz-3.9.3-1.el9 | python-rapidfuzz-3.9.3-1.el9.src.rpm | Built | [Log](logs/python-rapidfuzz-3.9.3-1.el9.src.rpm.log)
@@ -56,4 +56,4 @@ python3.11-trove-classifiers-2024.5.22-1.el9 | python-trove-classifiers-2024.5.2
 python3.11-virtualenv-20.26.3-1.el9 | python-virtualenv-20.26.3-1.el9.src.rpm | Built | [Log](logs/python-virtualenv-20.26.3-1.el9.src.rpm.log)
 python3.11-zipp-3.19.2-1.el9 | python-zipp-3.19.2-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.19.2-1.el9.src.rpm.log)
 
-46 total packages, 45 packages built successfully, 1 packages left to fix
+46 total packages, 46 packages built successfully, 0 packages left to fix
