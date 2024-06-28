@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-zipp-3.19.2-1.el9.src.rpm
+The lastest package built was python-more-itertools-10.3.0-1.el9.src.rpm
 
-The build completed at Fri Jun 28 08:26:15 PM CEST 2024
+The build completed at Fri Jun 28 08:26:53 PM CEST 2024
 
 The build was successful.
 
-[Build Log](logs/python-zipp-3.19.2-1.el9.src.rpm.log)
+[Build Log](logs/python-more-itertools-10.3.0-1.el9.src.rpm.log)
 ## Package build status for version: 6.0.0b3
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -32,7 +32,7 @@ python3.11-jaraco-context-5.3.0-1.el9 | python-jaraco-context-5.3.0-1.el9.src.rp
 python3.11-jaraco-functools-4.0.1-1.el9 | python-jaraco-functools-4.0.1-1.el9.src.rpm | **Missing** | [Log](logs/python-jaraco-functools-4.0.1-1.el9.src.rpm.log)
 python3.11-jeepney-0.8.0-1.el9 | python-jeepney-0.8.0-1.el9.src.rpm | Built | [Log](logs/python-jeepney-0.8.0-1.el9.src.rpm.log)
 python3.11-keyring-25.2.1-1.el9 | python-keyring-25.2.1-1.el9.src.rpm | **Missing** | [Log](logs/python-keyring-25.2.1-1.el9.src.rpm.log)
-python3.11-more-itertools-10.3.0-1.el9 | python-more-itertools-10.3.0-1.el9.src.rpm | **Missing** |
+python3.11-more-itertools-10.3.0-1.el9 | python-more-itertools-10.3.0-1.el9.src.rpm | Built | [Log](logs/python-more-itertools-10.3.0-1.el9.src.rpm.log)
 python3.11-msgpack-1.0.8-1.el9 | python-msgpack-1.0.8-1.el9.src.rpm | Built | [Log](logs/python-msgpack-1.0.8-1.el9.src.rpm.log)
 python3.11-packaging-24.1-1.el9 | python-packaging-24.1-1.el9.src.rpm | Built | [Log](logs/python-packaging-24.1-1.el9.src.rpm.log)
 python3.11-pathspec-0.12.1-1.el9 | python-pathspec-0.12.1-1.el9.src.rpm | Built | [Log](logs/python-pathspec-0.12.1-1.el9.src.rpm.log)
@@ -56,4 +56,4 @@ python3.11-trove-classifiers-2024.5.22-1.el9 | python-trove-classifiers-2024.5.2
 python3.11-virtualenv-20.26.3-1.el9 | python-virtualenv-20.26.3-1.el9.src.rpm | **Missing** | [Log](logs/python-virtualenv-20.26.3-1.el9.src.rpm.log)
 python3.11-zipp-3.19.2-1.el9 | python-zipp-3.19.2-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.19.2-1.el9.src.rpm.log)
 
-46 total packages, 36 packages built successfully, 10 packages left to fix
+46 total packages, 37 packages built successfully, 9 packages left to fix
