@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-msgpack-1.0.8-1.el9.src.rpm
+The lastest package built was python-dulwich-0.22.1-1.el9.src.rpm
 
-The build completed at Fri Jun 28 06:25:49 PM CEST 2024
+The build completed at Fri Jun 28 06:27:49 PM CEST 2024
 
 The build was successful.
 
-[Build Log](logs/python-msgpack-1.0.8-1.el9.src.rpm.log)
+[Build Log](logs/python-dulwich-0.22.1-1.el9.src.rpm.log)
 ## Package build status for version: 6.0.0b3
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -17,7 +17,7 @@ python3.11-cmake-3.29.6-1.el9 | python-cmake-3.29.6-1.el9.src.rpm | Built | [Log
 python3.11-crashtest-0.4.1-1.el9 | python-crashtest-0.4.1-1.el9.src.rpm | Built | [Log](logs/python-crashtest-0.4.1-1.el9.src.rpm.log)
 python3.11-cython-3.0.10-1.el9 | python-cython-3.0.10-1.el9.src.rpm | Built | [Log](logs/python-cython-3.0.10-1.el9.src.rpm.log)
 python3.11-distro-1.9.0-1.el9 | python-distro-1.9.0-1.el9.src.rpm | Built | [Log](logs/python-distro-1.9.0-1.el9.src.rpm.log)
-python3.11-dulwich-0.22.1-1.el9 | python-dulwich-0.22.1-1.el9.src.rpm | **Missing** | [Log](logs/python-dulwich-0.22.1-1.el9.src.rpm.log)
+python3.11-dulwich-0.22.1-1.el9 | python-dulwich-0.22.1-1.el9.src.rpm | Built | [Log](logs/python-dulwich-0.22.1-1.el9.src.rpm.log)
 python3.11-fastjsonschema-2.20.0-1.el9 | python-fastjsonschema-2.20.0-1.el9.src.rpm | Built | [Log](logs/python-fastjsonschema-2.20.0-1.el9.src.rpm.log)
 python3.11-filelock-3.15.4-1.el9 | python-filelock-3.15.4-1.el9.src.rpm | Built | [Log](logs/python-filelock-3.15.4-1.el9.src.rpm.log)
 python3.11-hatch-fancy-pypi-readme-24.1.0-1.el9 | python-hatch-fancy-pypi-readme-24.1.0-1.el9.src.rpm | Built | [Log](logs/python-hatch-fancy-pypi-readme-24.1.0-1.el9.src.rpm.log)
@@ -46,4 +46,4 @@ python3.11-tomlkit-0.12.5-1.el9 | python-tomlkit-0.12.5-1.el9.src.rpm | Built | 
 python3.11-trove-classifiers-2024.5.22-1.el9 | python-trove-classifiers-2024.5.22-1.el9.src.rpm | Built | [Log](logs/python-trove-classifiers-2024.5.22-1.el9.src.rpm.log)
 python3.11-virtualenv-20.26.3-1.el9 | python-virtualenv-20.26.3-1.el9.src.rpm | **Missing** | [Log](logs/python-virtualenv-20.26.3-1.el9.src.rpm.log)
 
-36 total packages, 28 packages built successfully, 8 packages left to fix
+36 total packages, 29 packages built successfully, 7 packages left to fix
