@@ -37,3 +37,9 @@ distro
 cmake
 scikit-build-core
 distlib
+importlib-metadata
+jaraco-classes
+jaraco-context
+jaraco-functools
+jeepney
+secretstorage
