@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-msgpack-1.0.8-1.el9.src.rpm
+The lastest package built was python-cachecontrol-0.14.0-1.el9.src.rpm
 
-The build completed at Fri Jun 28 02:02:35 PM CEST 2024
+The build completed at Fri Jun 28 02:05:45 PM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-msgpack-1.0.8-1.el9.src.rpm.log)
+[Build Log](logs/python-cachecontrol-0.14.0-1.el9.src.rpm.log)
 ## Package build status for version: 6.0.0b3
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -14,6 +14,7 @@ python3.11-cachecontrol-0.14.0-1.el9 | python-cachecontrol-0.14.0-1.el9.src.rpm 
 python3.11-calver-2022.6.26-1.el9 | python-calver-2022.6.26-1.el9.src.rpm | Built | [Log](logs/python-calver-2022.6.26-1.el9.src.rpm.log)
 python3.11-cleo-2.1.0-1.el9 | python-cleo-2.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-cleo-2.1.0-1.el9.src.rpm.log)
 python3.11-crashtest-0.4.1-1.el9 | python-crashtest-0.4.1-1.el9.src.rpm | Built | [Log](logs/python-crashtest-0.4.1-1.el9.src.rpm.log)
+python3.11-cython-3.0.10-1.el9 | python-cython-3.0.10-1.el9.src.rpm | **Missing** | [Log](logs/python-cython-3.0.10-1.el9.src.rpm.log)
 python3.11-dulwich-0.22.1-1.el9 | python-dulwich-0.22.1-1.el9.src.rpm | **Missing** | [Log](logs/python-dulwich-0.22.1-1.el9.src.rpm.log)
 python3.11-fastjsonschema-2.20.0-1.el9 | python-fastjsonschema-2.20.0-1.el9.src.rpm | Built | [Log](logs/python-fastjsonschema-2.20.0-1.el9.src.rpm.log)
 python3.11-filelock-3.15.4-1.el9 | python-filelock-3.15.4-1.el9.src.rpm | Built | [Log](logs/python-filelock-3.15.4-1.el9.src.rpm.log)
@@ -41,4 +42,4 @@ python3.11-tomlkit-0.12.5-1.el9 | python-tomlkit-0.12.5-1.el9.src.rpm | Built | 
 python3.11-trove-classifiers-2024.5.22-1.el9 | python-trove-classifiers-2024.5.22-1.el9.src.rpm | Built | [Log](logs/python-trove-classifiers-2024.5.22-1.el9.src.rpm.log)
 python3.11-virtualenv-20.26.3-1.el9 | python-virtualenv-20.26.3-1.el9.src.rpm | **Missing** | [Log](logs/python-virtualenv-20.26.3-1.el9.src.rpm.log)
 
-31 total packages, 19 packages built successfully, 12 packages left to fix
+32 total packages, 19 packages built successfully, 13 packages left to fix
