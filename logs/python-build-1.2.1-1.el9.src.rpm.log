@@ -47,11 +47,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/      [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                 2.9 MB/s | 3.0 kB     00:00    
-/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/      [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                 458 kB/s | 4.6 kB     00:00    
-Red Hat Enterprise Linux - BaseOS             [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS             [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        8.2 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream          [         ===                            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                      19 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linu     [            ===                         ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                        21 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x     [               ===                      ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           348 kB/s |  38 kB     00:00    
+/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/      [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                 2.0 MB/s | 7.6 kB     00:00    
+Red Hat Enterprise Linux - BaseOS             [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                         17 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream          [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                      20 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linu     [         ===                            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                        20 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x     [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           182 kB/s |  38 kB     00:00    
 Dependencies resolved.
 =========================================================================================================================
  Package                                Architecture      Version                     Repository                    Size
@@ -171,7 +171,7 @@ Start: rpmbuild python-build-1.2.1-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1719532800
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.DJKDQR
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.LQgYj4
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -185,7 +185,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.DJKDQR
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.udMHyO
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.Wu3kQr
 + umask 022
 + cd /builddir/build/BUILD
 + cd build-1.2.1
@@ -220,10 +220,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/      [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                 2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS             [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                         19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - BaseOS             [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                         18 kB/s | 4.1 kB     00:00    
 Red Hat Enterprise Linux - AppStream          [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                      20 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linu     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                        20 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x     [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x     [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                            60 kB/s |  38 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linu     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                        18 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x     [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           361 kB/s |  38 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9_4.1.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9_4.1.x86_64 is already installed.
@@ -263,7 +263,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1719532800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.OtVAcV
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.uJMSm2
 + umask 022
 + cd /builddir/build/BUILD
 + cd build-1.2.1
@@ -300,10 +300,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/      [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                 2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS             [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                         17 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - BaseOS             [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                         18 kB/s | 4.1 kB     00:00    
 Red Hat Enterprise Linux - AppStream          [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                      20 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linu     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                        20 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x     [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           267 kB/s |  38 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linu     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                        19 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x     [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           359 kB/s |  38 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9_4.1.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9_4.1.x86_64 is already installed.
@@ -342,7 +342,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1719532800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.BCnoDu
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.5Hq8gb
 + umask 022
 + cd /builddir/build/BUILD
 + cd build-1.2.1
@@ -440,21 +440,20 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/      [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                 2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS             [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                         20 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream          [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                      21 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS             [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                         17 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream          [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                      19 kB/s | 4.5 kB     00:00    
 Red Hat Enterprise Linux - CodeReady Linu     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                        20 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x     [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           259 kB/s |  38 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x     [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x     [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                            60 kB/s |  38 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9_4.1.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9_4.1.x86_64 is already installed.
-No matching package to install: 'python3.11dist(filelock) >= 3'
 Package python3.11-flit-core-3.9.0-4.el9.noarch is already installed.
+No matching package to install: 'python3.11dist(filelock) >= 3'
 No matching package to install: 'python3.11dist(furo) >= 2023.8.17'
 No matching package to install: 'python3.11dist(importlib-metadata) >= 5.1'
 Package python3.11-packaging-24.1-1.el9.noarch is already installed.
 Package python3.11-packaging-24.1-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
-No matching package to install: 'python3.11dist(pyproject-hooks)'
 No matching package to install: 'python3.11dist(pytest-cov) >= 2.12'
 No matching package to install: 'python3.11dist(pytest-mock) >= 2'
 No matching package to install: 'python3.11dist(pytest-rerunfailures) >= 9.1'
@@ -470,10 +469,10 @@ Not all dependencies satisfied
 Error: Some packages could not be found.
 Finish: rpmbuild python-build-1.2.1-1.el9.src.rpm
 Finish: build phase for python-build-1.2.1-1.el9.src.rpm
-ERROR: Exception(/opt/minarca-rpm/rpmbuilds/6.0.0b3/SRPMS/python-build-1.2.1-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 22 seconds
+ERROR: Exception(/opt/minarca-rpm/rpmbuilds/6.0.0b3/SRPMS/python-build-1.2.1-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 19 seconds
 INFO: Results and/or logs in: /opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS-TMP/
 ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M 99764d8d23854794b9806b45c4622ddf -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.igseouea:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-build-1.2.1-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
+ # /usr/bin/systemd-nspawn -q -M 59291a4ac260465ab8d25c8b90e25cce -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.iyjctlil:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-build-1.2.1-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
@@ -481,21 +480,20 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                 2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                         20 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                      21 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                         17 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                                      19 kB/s | 4.5 kB     00:00    
 Red Hat Enterprise Linux - CodeReady Linux Builder                                        20 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                           259 kB/s |  38 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                            60 kB/s |  38 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9_4.1.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9_4.1.x86_64 is already installed.
-No matching package to install: 'python3.11dist(filelock) >= 3'
 Package python3.11-flit-core-3.9.0-4.el9.noarch is already installed.
+No matching package to install: 'python3.11dist(filelock) >= 3'
 No matching package to install: 'python3.11dist(furo) >= 2023.8.17'
 No matching package to install: 'python3.11dist(importlib-metadata) >= 5.1'
 Package python3.11-packaging-24.1-1.el9.noarch is already installed.
 Package python3.11-packaging-24.1-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
-No matching package to install: 'python3.11dist(pyproject-hooks)'
 No matching package to install: 'python3.11dist(pytest-cov) >= 2.12'
 No matching package to install: 'python3.11dist(pytest-mock) >= 2'
 No matching package to install: 'python3.11dist(pytest-rerunfailures) >= 9.1'
@@ -511,7 +509,7 @@ Not all dependencies satisfied
 Error: Some packages could not be found.
 
 Directory walk started
-Directory walk done - 4 packages
+Directory walk done - 10 packages
 Temporary output repo path: /opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)

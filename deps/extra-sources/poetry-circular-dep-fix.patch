@@ -1,0 +1,11 @@
+diff -uNr poetry-1.8.3/pyproject.toml poetry-1.8.3-fix/pyproject.toml
+--- poetry-1.8.3/pyproject.toml	2024-05-08 15:44:40.811555000 +0200
++++ poetry-1.8.3-fix/pyproject.toml	2024-05-23 20:34:06.361159368 +0200
+@@ -32,7 +32,6 @@
+ python = "^3.8"
+ 
+ poetry-core = "1.9.0"
+-poetry-plugin-export = "^1.6.0"
+ build = "^1.0.3"
+ cachecontrol = { version = "^0.14.0", extras = ["filecache"] }
+ cleo = "^2.1.0"
