@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-importlib-metadata-8.0.0-1.el9.src.rpm
+The lastest package built was python-jaraco-classes-3.4.0-1.el9.src.rpm
 
-The build completed at Fri Jun 28 08:28:22 PM CEST 2024
+The build completed at Fri Jun 28 08:28:58 PM CEST 2024
 
 The build was successful.
 
-[Build Log](logs/python-importlib-metadata-8.0.0-1.el9.src.rpm.log)
+[Build Log](logs/python-jaraco-classes-3.4.0-1.el9.src.rpm.log)
 ## Package build status for version: 6.0.0b3
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -27,7 +27,7 @@ python3.11-hatchling-1.25.0-1.el9 | python-hatchling-1.25.0-1.el9.src.rpm | Buil
 python3.11-hatch-vcs-0.4.0-1.el9 | python-hatch-vcs-0.4.0-1.el9.src.rpm | Built | [Log](logs/python-hatch-vcs-0.4.0-1.el9.src.rpm.log)
 python3.11-importlib-metadata-8.0.0-1.el9 | python-importlib-metadata-8.0.0-1.el9.src.rpm | Built | [Log](logs/python-importlib-metadata-8.0.0-1.el9.src.rpm.log)
 python3.11-installer-0.7.0-1.el9 | python-installer-0.7.0-1.el9.src.rpm | Built | [Log](logs/python-installer-0.7.0-1.el9.src.rpm.log)
-python3.11-jaraco-classes-3.4.0-1.el9 | python-jaraco-classes-3.4.0-1.el9.src.rpm | **Missing** | [Log](logs/python-jaraco-classes-3.4.0-1.el9.src.rpm.log)
+python3.11-jaraco-classes-3.4.0-1.el9 | python-jaraco-classes-3.4.0-1.el9.src.rpm | Built | [Log](logs/python-jaraco-classes-3.4.0-1.el9.src.rpm.log)
 python3.11-jaraco-context-5.3.0-1.el9 | python-jaraco-context-5.3.0-1.el9.src.rpm | **Missing** | [Log](logs/python-jaraco-context-5.3.0-1.el9.src.rpm.log)
 python3.11-jaraco-functools-4.0.1-1.el9 | python-jaraco-functools-4.0.1-1.el9.src.rpm | **Missing** | [Log](logs/python-jaraco-functools-4.0.1-1.el9.src.rpm.log)
 python3.11-jeepney-0.8.0-1.el9 | python-jeepney-0.8.0-1.el9.src.rpm | Built | [Log](logs/python-jeepney-0.8.0-1.el9.src.rpm.log)
@@ -56,4 +56,4 @@ python3.11-trove-classifiers-2024.5.22-1.el9 | python-trove-classifiers-2024.5.2
 python3.11-virtualenv-20.26.3-1.el9 | python-virtualenv-20.26.3-1.el9.src.rpm | **Missing** | [Log](logs/python-virtualenv-20.26.3-1.el9.src.rpm.log)
 python3.11-zipp-3.19.2-1.el9 | python-zipp-3.19.2-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.19.2-1.el9.src.rpm.log)
 
-46 total packages, 39 packages built successfully, 7 packages left to fix
+46 total packages, 40 packages built successfully, 6 packages left to fix
