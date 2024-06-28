@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-cachecontrol-0.14.0-1.el9.src.rpm
+The lastest package built was python-msgpack-1.0.8-1.el9.src.rpm
 
-The build completed at Fri Jun 28 02:01:21 PM CEST 2024
+The build completed at Fri Jun 28 02:02:35 PM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-cachecontrol-0.14.0-1.el9.src.rpm.log)
+[Build Log](logs/python-msgpack-1.0.8-1.el9.src.rpm.log)
 ## Package build status for version: 6.0.0b3
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -21,6 +21,7 @@ python3.11-hatchling-1.25.0-1.el9 | python-hatchling-1.25.0-1.el9.src.rpm | Buil
 python3.11-hatch-vcs-0.4.0-1.el9 | python-hatch-vcs-0.4.0-1.el9.src.rpm | Built | [Log](logs/python-hatch-vcs-0.4.0-1.el9.src.rpm.log)
 python3.11-installer-0.7.0-1.el9 | python-installer-0.7.0-1.el9.src.rpm | Built | [Log](logs/python-installer-0.7.0-1.el9.src.rpm.log)
 python3.11-keyring-25.2.1-1.el9 | python-keyring-25.2.1-1.el9.src.rpm | **Missing** | [Log](logs/python-keyring-25.2.1-1.el9.src.rpm.log)
+python3.11-msgpack-1.0.8-1.el9 | python-msgpack-1.0.8-1.el9.src.rpm | **Missing** | [Log](logs/python-msgpack-1.0.8-1.el9.src.rpm.log)
 python3.11-packaging-24.1-1.el9 | python-packaging-24.1-1.el9.src.rpm | Built | [Log](logs/python-packaging-24.1-1.el9.src.rpm.log)
 python3.11-pathspec-0.12.1-1.el9 | python-pathspec-0.12.1-1.el9.src.rpm | Built | [Log](logs/python-pathspec-0.12.1-1.el9.src.rpm.log)
 python3.11-pexpect-4.9.0-1.el9 | python-pexpect-4.9.0-1.el9.src.rpm | **Missing** | [Log](logs/python-pexpect-4.9.0-1.el9.src.rpm.log)
@@ -40,4 +41,4 @@ python3.11-tomlkit-0.12.5-1.el9 | python-tomlkit-0.12.5-1.el9.src.rpm | Built | 
 python3.11-trove-classifiers-2024.5.22-1.el9 | python-trove-classifiers-2024.5.22-1.el9.src.rpm | Built | [Log](logs/python-trove-classifiers-2024.5.22-1.el9.src.rpm.log)
 python3.11-virtualenv-20.26.3-1.el9 | python-virtualenv-20.26.3-1.el9.src.rpm | **Missing** | [Log](logs/python-virtualenv-20.26.3-1.el9.src.rpm.log)
 
-30 total packages, 19 packages built successfully, 11 packages left to fix
+31 total packages, 19 packages built successfully, 12 packages left to fix
