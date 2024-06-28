@@ -27,3 +27,4 @@ hatch-vcs
 hatchling
 filelock
 pathspec
+ptyprocess
