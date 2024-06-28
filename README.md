@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-installer-0.7.0-1.el9.src.rpm
+The lastest package built was python-keyring-25.2.1-1.el9.src.rpm
 
-The build completed at Fri Jun 28 01:34:22 PM CEST 2024
+The build completed at Fri Jun 28 01:34:45 PM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-installer-0.7.0-1.el9.src.rpm.log)
+[Build Log](logs/python-keyring-25.2.1-1.el9.src.rpm.log)
 ## Package build status for version: 6.0.0b3
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -17,7 +17,7 @@ python3.11-crashtest-0.4.1-1.el9 | python-crashtest-0.4.1-1.el9.src.rpm | Built 
 python3.11-dulwich-0.22.1-1.el9 | python-dulwich-0.22.1-1.el9.src.rpm | **Missing** | [Log](logs/python-dulwich-0.22.1-1.el9.src.rpm.log)
 python3.11-fastjsonschema-2.20.0-1.el9 | python-fastjsonschema-2.20.0-1.el9.src.rpm | **Missing** | [Log](logs/python-fastjsonschema-2.20.0-1.el9.src.rpm.log)
 python3.11-installer-0.7.0-1.el9 | python-installer-0.7.0-1.el9.src.rpm | Built | [Log](logs/python-installer-0.7.0-1.el9.src.rpm.log)
-python3.11-keyring-25.2.1-1.el9 | python-keyring-25.2.1-1.el9.src.rpm | **Missing** |
+python3.11-keyring-25.2.1-1.el9 | python-keyring-25.2.1-1.el9.src.rpm | **Missing** | [Log](logs/python-keyring-25.2.1-1.el9.src.rpm.log)
 python3.11-packaging-24.1-1.el9 | python-packaging-24.1-1.el9.src.rpm | Built | [Log](logs/python-packaging-24.1-1.el9.src.rpm.log)
 python3.11-pexpect-4.9.0-1.el9 | python-pexpect-4.9.0-1.el9.src.rpm | **Missing** |
 python3.11-pkginfo-1.11.1-1.el9 | python-pkginfo-1.11.1-1.el9.src.rpm | **Missing** |
