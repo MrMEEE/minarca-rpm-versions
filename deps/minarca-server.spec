@@ -15,7 +15,7 @@ Prefix: %{_prefix}
 BuildArch: noarch
 Vendor: IKUS Software inc. <support@ikus-soft.com>
 Url: https://minarca.org/
-BuildRequires: python3.11 python3.11-devel python3.11-setuptools python3.11-wheel python3.11-pip
+BuildRequires: python3.11 python3.11-devel python3.11-setuptools python3.11-wheel python3.11-pip git
 
 %description
 Minarca is a self-hosted open source data backup software that allows you to manage your computer and server backups for free from a direct online accessible centralized view of your data with easy retrieval in case of displacement, loss or breakage.
