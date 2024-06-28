@@ -1,2 +1,4 @@
 poetry
 poetry-core
+trove-classifiers
+packaging
