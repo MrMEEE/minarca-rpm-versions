@@ -43,3 +43,4 @@ jaraco-context
 jaraco-functools
 jeepney
 secretstorage
+zipp
