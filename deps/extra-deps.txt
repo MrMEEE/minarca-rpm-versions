@@ -23,3 +23,5 @@ build
 crashtest
 rapidfuzz
 setuptools-scm
+hatch-vcs
+hatchling
