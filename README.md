@@ -1,7 +1,7 @@
 ## Latest build
 The lastest package built was minarca-server-6.0.0b3-1.src.rpm
 
-The build completed at Fri Jun 28 09:18:41 PM CEST 2024
+The build completed at Fri Jun 28 09:20:27 PM CEST 2024
 
 The build was unsuccessful.
 
