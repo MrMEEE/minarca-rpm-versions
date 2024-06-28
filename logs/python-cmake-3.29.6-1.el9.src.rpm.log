@@ -47,11 +47,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                        [===                                                                                       ] ---  B/s |   0  B     --:-- ETA/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                                                                                                                     2.9 MB/s | 3.0 kB     00:00    
-/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                        [===                                                                                       ] ---  B/s |   0  B     --:-- ETA/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                                                                                                                     2.5 MB/s |  23 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                               [   ===                                                                                    ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                             16 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                            [      ===                                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                          20 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                              [         ===                                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                            19 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                                  [            ===                                                                           ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  [               ===                                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                66 kB/s |  42 kB     00:00    
+/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                        [===                                                                                       ] ---  B/s |   0  B     --:-- ETA/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                                                                                                                     5.1 MB/s |  23 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                               [   ===                                                                                    ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                             18 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                                            [      ===                                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                          22 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                              [         ===                                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                            22 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                                  [            ===                                                                           ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                               392 kB/s |  42 kB     00:00    
 Dependencies resolved.
 =============================================================================================================================================================================================================================
  Package                                                        Architecture                              Version                                                 Repository                                            Size
@@ -92,10 +92,10 @@ Transaction Summary
 Install  28 Packages
 
 Total size: 34 M
-Total download size: 11 M
 Installed size: 123 M
 Downloading Packages:
 [SKIPPED] python3-pyparsing-2.4.7-9.el9.noarch.rpm: Already downloaded                                                                                                                                                      
+[SKIPPED] vim-filesystem-8.2.2637-20.el9_1.noarch.rpm: Already downloaded                                                                                                                                                   
 [SKIPPED] python3-setuptools-wheel-53.0.0-12.el9.noarch.rpm: Already downloaded                                                                                                                                             
 [SKIPPED] expat-2.5.0-2.el9_4.x86_64.rpm: Already downloaded                                                                                                                                                                
 [SKIPPED] libtirpc-1.3.3-8.el9_4.x86_64.rpm: Already downloaded                                                                                                                                                             
@@ -103,28 +103,25 @@ Downloading Packages:
 [SKIPPED] python3-pip-wheel-21.2.3-8.el9.noarch.rpm: Already downloaded                                                                                                                                                     
 [SKIPPED] python3-3.9.18-3.el9_4.1.x86_64.rpm: Already downloaded                                                                                                                                                           
 [SKIPPED] python3-libs-3.9.18-3.el9_4.1.x86_64.rpm: Already downloaded                                                                                                                                                      
+[SKIPPED] libuv-1.42.0-1.el9.x86_64.rpm: Already downloaded                                                                                                                                                                 
 [SKIPPED] libnsl2-2.0.0-1.el9.x86_64.rpm: Already downloaded                                                                                                                                                                
 [SKIPPED] python3-packaging-20.9-5.el9.noarch.rpm: Already downloaded                                                                                                                                                       
 [SKIPPED] python3.11-setuptools-wheel-65.5.1-2.el9.noarch.rpm: Already downloaded                                                                                                                                           
 [SKIPPED] mpdecimal-2.5.1-3.el9.x86_64.rpm: Already downloaded                                                                                                                                                              
 [SKIPPED] emacs-filesystem-27.2-9.el9.noarch.rpm: Already downloaded                                                                                                                                                        
+[SKIPPED] cmake-3.26.5-2.el9.x86_64.rpm: Already downloaded                                                                                                                                                                 
+[SKIPPED] cmake-filesystem-3.26.5-2.el9.x86_64.rpm: Already downloaded                                                                                                                                                      
 [SKIPPED] python-rpm-macros-3.9-53.el9.noarch.rpm: Already downloaded                                                                                                                                                       
+[SKIPPED] cmake-data-3.26.5-2.el9.noarch.rpm: Already downloaded                                                                                                                                                            
+[SKIPPED] cmake-rpm-macros-3.26.5-2.el9.noarch.rpm: Already downloaded                                                                                                                                                      
 [SKIPPED] python3-rpm-generators-12-9.el9.noarch.rpm: Already downloaded                                                                                                                                                    
 [SKIPPED] python3-rpm-macros-3.9-53.el9.noarch.rpm: Already downloaded                                                                                                                                                      
 [SKIPPED] python3.11-pip-wheel-22.3.1-5.el9.noarch.rpm: Already downloaded                                                                                                                                                  
 [SKIPPED] python3.11-3.11.7-1.el9_4.1.x86_64.rpm: Already downloaded                                                                                                                                                        
 [SKIPPED] python3.11-devel-3.11.7-1.el9_4.1.x86_64.rpm: Already downloaded                                                                                                                                                  
 [SKIPPED] python3.11-libs-3.11.7-1.el9_4.1.x86_64.rpm: Already downloaded                                                                                                                                                   
+[SKIPPED] ninja-build-1.10.2-6.el9.x86_64.rpm: Already downloaded                                                                                                                                                           
 [SKIPPED] pyproject-rpm-macros-1.12.0-1.el9.noarch.rpm: Already downloaded                                                                                                                                                  
-(22/28): vim-filesystem-8.2.2637-20.el9_1.noarch.rpm                                        66% [============================================================                              ] ---  B/s |  23 MB     --:-- ETA(22/28): vim-filesystem-8.2.2637-20.el9_1.noarch.rpm                                                                                                                                          85 kB/s |  22 kB     00:00    
-(23-24/28): libuv-1.42.0-1.el9.x86_64.rpm                                                   67% [============================================================-                             ] 714 kB/s |  23 MB     00:16 ETA(23/28): libuv-1.42.0-1.el9.x86_64.rpm                                                                                                                                                       569 kB/s | 153 kB     00:00    
-(24-25/28): cmake-3.26.5-2.el9.x86_64.rpm                                                   67% [============================================================-                             ] 729 kB/s |  23 MB     00:15 ETA(24/28): cmake-3.26.5-2.el9.x86_64.rpm                                                                                                                                                        15 MB/s | 8.7 MB     00:00    
-(25-26/28): cmake-filesystem-3.26.5-2.el9.x86_64.rpm                                        92% [===================================================================================       ] 2.4 MB/s |  32 MB     00:01 ETA(25/28): cmake-filesystem-3.26.5-2.el9.x86_64.rpm                                                                                                                                             71 kB/s |  23 kB     00:00    
-(26-27/28): cmake-data-3.26.5-2.el9.noarch.rpm                                              92% [===================================================================================       ] 2.4 MB/s |  32 MB     00:01 ETA(26/28): cmake-data-3.26.5-2.el9.noarch.rpm                                                                                                                                                  6.7 MB/s | 2.4 MB     00:00    
-(27-28/28): cmake-rpm-macros-3.26.5-2.el9.noarch.rpm                                        99% [=========================================================================================-] 2.9 MB/s |  34 MB     00:00 ETA(27/28): cmake-rpm-macros-3.26.5-2.el9.noarch.rpm                                                                                                                                             41 kB/s |  12 kB     00:00    
-(28/28): ninja-build-1.10.2-6.el9.x86_64.rpm                                                99% [=========================================================================================-] 2.7 MB/s |  34 MB     00:00 ETA(28/28): ninja-build-1.10.2-6.el9.x86_64.rpm                                                99% [=========================================================================================-] 2.7 MB/s |  34 MB     00:00 ETA(28/28): ninja-build-1.10.2-6.el9.x86_64.rpm                                                99% [=========================================================================================-] 2.7 MB/s |  34 MB     00:00 ETA(28/28): ninja-build-1.10.2-6.el9.x86_64.rpm                                                                                                                                                 103 kB/s | 150 kB     00:01    
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Total                                                                                                                                                                                        5.6 MB/s |  11 MB     00:02     
 Running transaction check
 Transaction check succeeded.
 Running transaction test
@@ -206,7 +203,7 @@ Start: rpmbuild python-cmake-3.29.6-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1719532800
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.rP1352
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.EnTXkI
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -220,7 +217,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.rP1352
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.gUSKqD
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.Jt5qem
 + umask 022
 + cd /builddir/build/BUILD
 + cd cmake-3.29.6
@@ -239,7 +236,7 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.gUSKqD
 + TMPDIR=/builddir/build/BUILD/cmake-3.29.6/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/cmake-3.29.6/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-cmake-3.29.6-1.el9.x86_64-3.11-pyproject-buildrequires -x test
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/cmake-3.29.6/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-cmake-3.29.6-1.el9.x86_64-3.11-pyproject-buildrequires
 Import error: No module named 'packaging'
 + cat /builddir/build/BUILD/python-cmake-3.29.6-1.el9.x86_64-3.11-pyproject-buildrequires
 + rm -rfv '*.dist-info/'
@@ -255,10 +252,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                        [===                                                                                       ] ---  B/s |   0  B     --:-- ETA/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                                                                                                                     2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                               [===                                                                                       ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                             16 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                            [   ===                                                                                    ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                          19 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                              [      ===                                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                            19 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                                  [         ===                                                                              ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  [            ===                                                                           ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                84 kB/s |  42 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                               [===                                                                                       ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                             19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                                            [   ===                                                                                    ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                          21 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                              [      ===                                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                            22 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                                  [         ===                                                                              ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  [            ===                                                                           ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                80 kB/s |  42 kB     00:00    
 Package cmake-3.26.5-2.el9.x86_64 is already installed.
 Package ninja-build-1.10.2-6.el9.x86_64 is already installed.
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
@@ -300,7 +297,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1719532800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.FHBqHj
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.oDy9vs
 + umask 022
 + cd /builddir/build/BUILD
 + cd cmake-3.29.6
@@ -319,7 +316,7 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.FHBqHj
 + TMPDIR=/builddir/build/BUILD/cmake-3.29.6/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/cmake-3.29.6/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-cmake-3.29.6-1.el9.x86_64-3.11-pyproject-buildrequires -x test
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/cmake-3.29.6/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-cmake-3.29.6-1.el9.x86_64-3.11-pyproject-buildrequires
 Handling scikit-build-core from build-system.requires
 Requirement not satisfied: scikit-build-core
 Exiting dependency generation pass: build backend
@@ -337,10 +334,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                        [===                                                                                       ] ---  B/s |   0  B     --:-- ETA/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                                                                                                                     2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                               [===                                                                                       ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                             16 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                            [   ===                                                                                    ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                          19 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                              [      ===                                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                            19 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                                  [         ===                                                                              ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                               296 kB/s |  42 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                               [===                                                                                       ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                             20 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                                            [   ===                                                                                    ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                          21 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                              [      ===                                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                            20 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                                  [         ===                                                                              ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                               247 kB/s |  42 kB     00:00    
 Package cmake-3.26.5-2.el9.x86_64 is already installed.
 Package ninja-build-1.10.2-6.el9.x86_64 is already installed.
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
@@ -384,7 +381,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1719532800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.mj4uZ0
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.Oy0L7t
 + umask 022
 + cd /builddir/build/BUILD
 + cd cmake-3.29.6
@@ -403,7 +400,7 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.mj4uZ0
 + TMPDIR=/builddir/build/BUILD/cmake-3.29.6/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/cmake-3.29.6/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-cmake-3.29.6-1.el9.x86_64-3.11-pyproject-buildrequires -x test
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/cmake-3.29.6/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-cmake-3.29.6-1.el9.x86_64-3.11-pyproject-buildrequires
 Handling scikit-build-core from build-system.requires
 Requirement satisfied: scikit-build-core
    (installed: scikit-build-core 0.9.7)
@@ -411,11 +408,83 @@ Requirement satisfied: scikit-build-core
 Handling importlib_metadata>=1.4; python_version < "3.8" from hook generated metadata: Requires-Dist (cmake)
 Ignoring alien requirement: importlib_metadata>=1.4; python_version < "3.8"
 Handling coverage>=4.2; extra == "test" from hook generated metadata: Requires-Dist (cmake)
-Requirement not satisfied: coverage>=4.2; extra == "test"
+Ignoring alien requirement: coverage>=4.2; extra == "test"
 Handling pytest>=3.0.3; extra == "test" from hook generated metadata: Requires-Dist (cmake)
-Requirement not satisfied: pytest>=3.0.3; extra == "test"
+Ignoring alien requirement: pytest>=3.0.3; extra == "test"
 Handling pytest-cov>=2.4.0; extra == "test" from hook generated metadata: Requires-Dist (cmake)
-Requirement not satisfied: pytest-cov>=2.4.0; extra == "test"
+Ignoring alien requirement: pytest-cov>=2.4.0; extra == "test"
++ cat /builddir/build/BUILD/python-cmake-3.29.6-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv cmake-3.29.6.dist-info/
+removed 'cmake-3.29.6.dist-info/METADATA'
+removed 'cmake-3.29.6.dist-info/WHEEL'
+removed 'cmake-3.29.6.dist-info/entry_points.txt'
+removed 'cmake-3.29.6.dist-info/licenses/LICENSE_Apache_20'
+removed 'cmake-3.29.6.dist-info/licenses/LICENSE_BSD_3'
+removed 'cmake-3.29.6.dist-info/licenses/AUTHORS.rst'
+removed directory 'cmake-3.29.6.dist-info/licenses'
+removed directory 'cmake-3.29.6.dist-info/'
++ RPM_EC=0
+++ jobs -p
+Wrote: /builddir/build/SRPMS/python-cmake-3.29.6-1.el9.buildreqs.nosrc.rpm
++ exit 0
+INFO: Going to install missing dynamic buildrequires
+No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+Updating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use subscription-manager to register.
+
+/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                        [===                                                                                       ] ---  B/s |   0  B     --:-- ETA/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                                                                                                                     2.9 MB/s | 3.0 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                               [===                                                                                       ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                             20 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                                            [   ===                                                                                    ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                          20 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                              [      ===                                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                            20 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                                  [         ===                                                                              ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  [            ===                                                                           ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                80 kB/s |  42 kB     00:00    
+Package cmake-3.26.5-2.el9.x86_64 is already installed.
+Package ninja-build-1.10.2-6.el9.x86_64 is already installed.
+Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
+Package python3.11-devel-3.11.7-1.el9_4.1.x86_64 is already installed.
+Package python3.11-devel-3.11.7-1.el9_4.1.x86_64 is already installed.
+Package python3.11-packaging-24.1-1.el9.noarch is already installed.
+Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
+Package python3.11-scikit-build-core-0.9.7-1.el9.noarch is already installed.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1719532800
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.gU1P2e
++ umask 022
++ cd /builddir/build/BUILD
++ cd cmake-3.29.6
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ true
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/cmake-3.29.6/.pyproject-builddir-3.11
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/cmake-3.29.6/.pyproject-builddir-3.11
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/cmake-3.29.6/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-cmake-3.29.6-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling scikit-build-core from build-system.requires
+Requirement satisfied: scikit-build-core
+   (installed: scikit-build-core 0.9.7)
+*** scikit-build-core 0.9.7 using CMake 3.26.5 (metadata_wheel)
+Handling importlib_metadata>=1.4; python_version < "3.8" from hook generated metadata: Requires-Dist (cmake)
+Ignoring alien requirement: importlib_metadata>=1.4; python_version < "3.8"
+Handling coverage>=4.2; extra == "test" from hook generated metadata: Requires-Dist (cmake)
+Ignoring alien requirement: coverage>=4.2; extra == "test"
+Handling pytest>=3.0.3; extra == "test" from hook generated metadata: Requires-Dist (cmake)
+Ignoring alien requirement: pytest>=3.0.3; extra == "test"
+Handling pytest-cov>=2.4.0; extra == "test" from hook generated metadata: Requires-Dist (cmake)
+Ignoring alien requirement: pytest-cov>=2.4.0; extra == "test"
 + cat /builddir/build/BUILD/python-cmake-3.29.6-1.el9.x86_64-3.11-pyproject-buildrequires
 + rm -rfv cmake-3.29.6.dist-info/
 removed 'cmake-3.29.6.dist-info/METADATA'
@@ -429,60 +498,63 @@ removed directory 'cmake-3.29.6.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Wrote: /builddir/build/SRPMS/python-cmake-3.29.6-1.el9.buildreqs.nosrc.rpm
-INFO: Going to install missing dynamic buildrequires
-No matches found for the following disable plugin patterns: local, spacewalk, versionlock
-Updating Subscription Management repositories.
-Unable to read consumer identity
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.QehRp7
++ umask 022
++ cd /builddir/build/BUILD
++ cd cmake-3.29.6
++ mkdir -p /builddir/build/BUILD/cmake-3.29.6/.pyproject-builddir-3.11
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/cmake-3.29.6/.pyproject-builddir-3.11
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_wheel.py /builddir/build/BUILD/cmake-3.29.6/pyproject-wheeldir-3.11
+Processing /builddir/build/BUILD/cmake-3.29.6
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  *** scikit-build-core 0.9.7 using CMake 3.26.5 (metadata_wheel)
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: cmake
+  Building wheel for cmake (pyproject.toml): started
+  Running command Building wheel for cmake (pyproject.toml)
+  *** scikit-build-core 0.9.7 using CMake 3.26.5 (wheel)
+  *** Configuring CMake...
+  loading initial cache file build/py3-none-linux_x86_64/CMakeInit.txt
+  CMake Error at /usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:48 (message):
+    Could not find compiler set in environment variable CXX:
 
-This system is not registered with an entitlement server. You can use subscription-manager to register.
+    g++.
 
-/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                        [===                                                                                       ] ---  B/s |   0  B     --:-- ETA/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                                                                                                                     2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                               [===                                                                                       ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                          100% [==========================================================================================] 9.4 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                            9.3 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                            [   ===                                                                                    ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                          18 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                              [      ===                                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                            18 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                                  [         ===                                                                              ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                               391 kB/s |  42 kB     00:00    
-Package cmake-3.26.5-2.el9.x86_64 is already installed.
-Package ninja-build-1.10.2-6.el9.x86_64 is already installed.
-Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
-Package python3.11-devel-3.11.7-1.el9_4.1.x86_64 is already installed.
-Package python3.11-devel-3.11.7-1.el9_4.1.x86_64 is already installed.
-No matching package to install: 'python3.11dist(coverage) >= 4.2'
-Package python3.11-packaging-24.1-1.el9.noarch is already installed.
-Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
-No matching package to install: 'python3.11dist(pytest-cov) >= 2.4'
-Package python3.11-scikit-build-core-0.9.7-1.el9.noarch is already installed.
-Not all dependencies satisfied
-Error: Some packages could not be found.
+  Call Stack (most recent call first):
+    CMakeLists.txt:24 (enable_language)
+
+
+  CMake Error: CMAKE_CXX_COMPILER not set, after EnableLanguage
+  -- Configuring incomplete, errors occurred!
+
+  *** CMake configuration failed
+  error: subprocess-exited-with-error
+  
+  × Building wheel for cmake (pyproject.toml) did not run successfully.
+  │ exit code: 1
+  ╰─> See above for output.
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+  full command: /usr/bin/python3.11 /usr/lib/python3.11/site-packages/pip/_vendor/pep517/in_process/_in_process.py build_wheel /builddir/build/BUILD/cmake-3.29.6/.pyproject-builddir-3.11/tmpttdtk_xe
+  cwd: /builddir/build/BUILD/cmake-3.29.6
+  Building wheel for cmake (pyproject.toml): finished with status 'error'
+  ERROR: Failed building wheel for cmake
+Failed to build cmake
+ERROR: Failed to build one or more wheels
+
+
+RPM build errors:
+error: Bad exit status from /var/tmp/rpm-tmp.QehRp7 (%build)
+    Bad exit status from /var/tmp/rpm-tmp.QehRp7 (%build)
 Finish: rpmbuild python-cmake-3.29.6-1.el9.src.rpm
 Finish: build phase for python-cmake-3.29.6-1.el9.src.rpm
 ERROR: Exception(/opt/minarca-rpm/rpmbuilds/6.0.0b3/SRPMS/python-cmake-3.29.6-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 26 seconds
 INFO: Results and/or logs in: /opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS-TMP/
 ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M 1833dc4f276a440593bac133a32c4785 -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.s5cr42tt:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-cmake-3.29.6-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
-No matches found for the following disable plugin patterns: local, spacewalk, versionlock
-Updating Subscription Management repositories.
-Unable to read consumer identity
-
-This system is not registered with an entitlement server. You can use subscription-manager to register.
-
-/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                                                                                                                     2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                                                                                                                            9.3 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                                                                                                                          18 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                            18 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                                                                                                                               391 kB/s |  42 kB     00:00    
-Package cmake-3.26.5-2.el9.x86_64 is already installed.
-Package ninja-build-1.10.2-6.el9.x86_64 is already installed.
-Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
-Package python3.11-devel-3.11.7-1.el9_4.1.x86_64 is already installed.
-Package python3.11-devel-3.11.7-1.el9_4.1.x86_64 is already installed.
-No matching package to install: 'python3.11dist(coverage) >= 4.2'
-Package python3.11-packaging-24.1-1.el9.noarch is already installed.
-Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
-No matching package to install: 'python3.11dist(pytest-cov) >= 2.4'
-Package python3.11-scikit-build-core-0.9.7-1.el9.noarch is already installed.
-Not all dependencies satisfied
-Error: Some packages could not be found.
+ # /usr/bin/systemd-nspawn -q -M dfde7fdb59374189b72e3e7ef5387528 -D /var/lib/mock/rhel+epel-9-x86_64/root -a -u mockbuild --capability=cap_ipc_lock --bind=/tmp/mock-resolv.3jrk3op2:/etc/resolv.conf --bind=/dev/mapper/control --bind=/dev/fuse --bind=/dev/loop-control --bind=/dev/loop0 --bind=/dev/loop1 --bind=/dev/loop2 --bind=/dev/loop3 --bind=/dev/loop4 --bind=/dev/loop5 --bind=/dev/loop6 --bind=/dev/loop7 --bind=/dev/loop8 --bind=/dev/loop9 --bind=/dev/loop10 --bind=/dev/loop11 --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/builddir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --resolv-conf=off bash --login -c '/usr/bin/rpmbuild -ba --noprep --noclean --target x86_64 /builddir/build/SPECS/python-cmake.spec --nocheck'
 
 Directory walk started
 Directory walk done - 28 packages
