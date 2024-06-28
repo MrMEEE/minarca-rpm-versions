@@ -11,6 +11,7 @@ Summary:        Python dependency management and packaging made easy.
 License:        gpl
 URL:            https://python-poetry.org/
 Source:         %{pypi_source poetry}
+Patch: poetry-circular-dep-fix.patch
 
 BuildArch:      noarch
 
