@@ -12,9 +12,10 @@ License:        gpl
 URL:            https://msgpack.org/
 Source:         %{pypi_source msgpack}
 
+BuildArch:      x86_64
 
 BuildRequires:  python%{python3_pkgversion}-devel
-BuildRequires:  gcc
+BuildRequires:  gcc gcc-c++
 
 
 # Fill in the actual package description to submit package to Fedora
