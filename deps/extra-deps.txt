@@ -28,3 +28,4 @@ hatchling
 filelock
 pathspec
 ptyprocess
+scikit-build
