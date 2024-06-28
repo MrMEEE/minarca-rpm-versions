@@ -46,12 +46,12 @@ Unable to read consumer identity
 
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
-/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                                                                               [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETA/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                                                                                                                                                                                                                                   471 kB/s | 3.0 kB     00:00    
-/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                                                                               [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETA/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                                                                                                                                                                                                                                   3.5 MB/s |  53 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                                                                                      [   ===                                                                                                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                                                                                                                                           14 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                                                                                   [      ===                                                                                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                                                                                                                                        19 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     [         ===                                                                                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                                                                                                                                          16 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                                                                                         [            ===                                                                                                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         [               ===                                                                                                                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                     37% [======================================================                                                                                           ]  42 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                                                                                                              51 kB/s |  42 kB     00:00    
+/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                                                                               [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETA/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                                                                                                                                                                                                                                   2.9 MB/s | 3.0 kB     00:00    
+/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                                                                               [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETA/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                                                                                                                                                                                                                                   9.2 MB/s |  53 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                                                                                      [   ===                                                                                                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                                                                                                                                           15 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                                                                                                   [      ===                                                                                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                                                                                                                                        20 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     [         ===                                                                                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                                                                                                                                          21 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                                                                                         [            ===                                                                                                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         [               ===                                                                                                                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         [                  ===                                                                                                                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                                                                                                              55 kB/s |  42 kB     00:00    
 Dependencies resolved.
 ===========================================================================================================================================================================================================================================================================================================================================
  Package                                                                                    Architecture                                                          Version                                                                           Repository                                                                        Size
@@ -164,13 +164,13 @@ Start: rpmbuild python-jeepney-0.8.0-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1719532800
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.Mn9m5I
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.JdjB4f
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
 + rm -rf jeepney-0.8.0
-+ /usr/bin/tar -xof -
 + /usr/bin/gzip -dc /builddir/build/SOURCES/jeepney-0.8.0.tar.gz
++ /usr/bin/tar -xof -
 + STATUS=0
 + '[' 0 -ne 0 ']'
 + cd jeepney-0.8.0
@@ -178,7 +178,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.Mn9m5I
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.V5eRqW
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.RclPtV
 + umask 022
 + cd /builddir/build/BUILD
 + cd jeepney-0.8.0
@@ -197,7 +197,7 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.V5eRqW
 + TMPDIR=/builddir/build/BUILD/jeepney-0.8.0/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/jeepney-0.8.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-jeepney-0.8.0-1.el9.x86_64-3.11-pyproject-buildrequires -x test,trio
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/jeepney-0.8.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-jeepney-0.8.0-1.el9.x86_64-3.11-pyproject-buildrequires
 Import error: No module named 'packaging'
 + cat /builddir/build/BUILD/python-jeepney-0.8.0-1.el9.x86_64-3.11-pyproject-buildrequires
 + rm -rfv '*.dist-info/'
@@ -213,10 +213,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                                                                               [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETA/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                                                                                                                                                                                                                                   2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                                                                                      [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                                                                                                                                           15 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                                                                                   [   ===                                                                                                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                                                                                                                                        18 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     [      ===                                                                                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                                                                                                                                          22 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                                                                                         [         ===                                                                                                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                                                                                                             379 kB/s |  42 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                                                                                      [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                                                                                                                                           19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                                                                                                   [   ===                                                                                                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                                                                                                                                        20 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     [      ===                                                                                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                                                                                                                                          21 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                                                                                         [         ===                                                                                                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         [            ===                                                                                                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                                                                                                              68 kB/s |  42 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9_4.1.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9_4.1.x86_64 is already installed.
@@ -256,7 +256,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1719532800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.GvQALN
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.dhmqpY
 + umask 022
 + cd /builddir/build/BUILD
 + cd jeepney-0.8.0
@@ -275,7 +275,7 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.GvQALN
 + TMPDIR=/builddir/build/BUILD/jeepney-0.8.0/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/jeepney-0.8.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-jeepney-0.8.0-1.el9.x86_64-3.11-pyproject-buildrequires -x test,trio
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/jeepney-0.8.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-jeepney-0.8.0-1.el9.x86_64-3.11-pyproject-buildrequires
 Handling flit_core >=2,<4 from build-system.requires
 Requirement not satisfied: flit_core >=2,<4
 Exiting dependency generation pass: build backend
@@ -293,10 +293,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                                                                               [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETA/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                                                                                                                                                                                                                                   2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                                                                                      [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                                                                                                                                           18 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                                                                                   [   ===                                                                                                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                                                                                                                                        17 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     [      ===                                                                                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                                                                                                                                          23 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                                                                                         [         ===                                                                                                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         [            ===                                                                                                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                                                                                                              81 kB/s |  42 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                                                                                      [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                                                                                                                                           19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                                                                                                   [   ===                                                                                                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                                                                                                                                        20 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     [      ===                                                                                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                                                                                                                                          22 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                                                                                         [         ===                                                                                                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                                                                                                             389 kB/s |  42 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9_4.1.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9_4.1.x86_64 is already installed.
@@ -335,7 +335,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1719532800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.pFrX0V
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.PCcKId
 + umask 022
 + cd /builddir/build/BUILD
 + cd jeepney-0.8.0
@@ -354,24 +354,24 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.pFrX0V
 + TMPDIR=/builddir/build/BUILD/jeepney-0.8.0/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/jeepney-0.8.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-jeepney-0.8.0-1.el9.x86_64-3.11-pyproject-buildrequires -x test,trio
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/jeepney-0.8.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-jeepney-0.8.0-1.el9.x86_64-3.11-pyproject-buildrequires
 Handling flit_core >=2,<4 from build-system.requires
 Requirement satisfied: flit_core >=2,<4
    (installed: flit_core 3.9.0)
 Handling pytest ; extra == "test" from hook generated metadata: Requires-Dist (jeepney)
-Requirement not satisfied: pytest ; extra == "test"
+Ignoring alien requirement: pytest ; extra == "test"
 Handling pytest-trio ; extra == "test" from hook generated metadata: Requires-Dist (jeepney)
-Requirement not satisfied: pytest-trio ; extra == "test"
+Ignoring alien requirement: pytest-trio ; extra == "test"
 Handling pytest-asyncio >=0.17 ; extra == "test" from hook generated metadata: Requires-Dist (jeepney)
-Requirement not satisfied: pytest-asyncio >=0.17 ; extra == "test"
+Ignoring alien requirement: pytest-asyncio >=0.17 ; extra == "test"
 Handling testpath ; extra == "test" from hook generated metadata: Requires-Dist (jeepney)
-Requirement not satisfied: testpath ; extra == "test"
+Ignoring alien requirement: testpath ; extra == "test"
 Handling trio ; extra == "test" from hook generated metadata: Requires-Dist (jeepney)
-Requirement not satisfied: trio ; extra == "test"
+Ignoring alien requirement: trio ; extra == "test"
 Handling async-timeout ; extra == "test" from hook generated metadata: Requires-Dist (jeepney)
-Requirement not satisfied: async-timeout ; extra == "test"
+Ignoring alien requirement: async-timeout ; extra == "test"
 Handling trio ; extra == "trio" from hook generated metadata: Requires-Dist (jeepney)
-Requirement not satisfied: trio ; extra == "trio"
+Ignoring alien requirement: trio ; extra == "trio"
 Handling async_generator ; extra == "trio" and ( python_version == '3.6') from hook generated metadata: Requires-Dist (jeepney)
 Ignoring alien requirement: async_generator ; extra == "trio" and ( python_version == '3.6')
 + cat /builddir/build/BUILD/python-jeepney-0.8.0-1.el9.x86_64-3.11-pyproject-buildrequires
@@ -392,53 +392,161 @@ This system is not registered with an entitlement server. You can use subscripti
 
 /opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                                                                               [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETA/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                                                                                                                                                                                                                                   2.9 MB/s | 3.0 kB     00:00    
 Red Hat Enterprise Linux - BaseOS                                                                                                                      [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                                                                                                                                           17 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                                                                                   [   ===                                                                                                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                                                                                                                                        17 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                                                                                                   [   ===                                                                                                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                                                                                                                                        18 kB/s | 4.5 kB     00:00    
 Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     [      ===                                                                                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                                                                                                                                          21 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                                                                                         [         ===                                                                                                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         [            ===                                                                                                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                                                                                                              67 kB/s |  42 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                                                                                         [         ===                                                                                                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                                                                                                             396 kB/s |  42 kB     00:00    
 Package python3.11-flit-core-3.9.0-4.el9.noarch is already installed.
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9_4.1.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9_4.1.x86_64 is already installed.
-No matching package to install: 'python3.11dist(async-timeout)'
 Package python3.11-packaging-24.1-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
-No matching package to install: 'python3.11dist(pytest-asyncio) >= 0.17'
-No matching package to install: 'python3.11dist(pytest-trio)'
-No matching package to install: 'python3.11dist(trio)'
-Not all dependencies satisfied
-Error: Some packages could not be found.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1719532800
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.mrddKs
++ umask 022
++ cd /builddir/build/BUILD
++ cd jeepney-0.8.0
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ true
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/jeepney-0.8.0/.pyproject-builddir-3.11
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/jeepney-0.8.0/.pyproject-builddir-3.11
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/jeepney-0.8.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-jeepney-0.8.0-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling flit_core >=2,<4 from build-system.requires
+Requirement satisfied: flit_core >=2,<4
+   (installed: flit_core 3.9.0)
+Handling pytest ; extra == "test" from hook generated metadata: Requires-Dist (jeepney)
+Ignoring alien requirement: pytest ; extra == "test"
+Handling pytest-trio ; extra == "test" from hook generated metadata: Requires-Dist (jeepney)
+Ignoring alien requirement: pytest-trio ; extra == "test"
+Handling pytest-asyncio >=0.17 ; extra == "test" from hook generated metadata: Requires-Dist (jeepney)
+Ignoring alien requirement: pytest-asyncio >=0.17 ; extra == "test"
+Handling testpath ; extra == "test" from hook generated metadata: Requires-Dist (jeepney)
+Ignoring alien requirement: testpath ; extra == "test"
+Handling trio ; extra == "test" from hook generated metadata: Requires-Dist (jeepney)
+Ignoring alien requirement: trio ; extra == "test"
+Handling async-timeout ; extra == "test" from hook generated metadata: Requires-Dist (jeepney)
+Ignoring alien requirement: async-timeout ; extra == "test"
+Handling trio ; extra == "trio" from hook generated metadata: Requires-Dist (jeepney)
+Ignoring alien requirement: trio ; extra == "trio"
+Handling async_generator ; extra == "trio" and ( python_version == '3.6') from hook generated metadata: Requires-Dist (jeepney)
+Ignoring alien requirement: async_generator ; extra == "trio" and ( python_version == '3.6')
++ cat /builddir/build/BUILD/python-jeepney-0.8.0-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv jeepney-0.8.0.dist-info/
+removed 'jeepney-0.8.0.dist-info/WHEEL'
+removed 'jeepney-0.8.0.dist-info/METADATA'
+removed directory 'jeepney-0.8.0.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.xCcPaq
++ umask 022
++ cd /builddir/build/BUILD
++ cd jeepney-0.8.0
++ mkdir -p /builddir/build/BUILD/jeepney-0.8.0/.pyproject-builddir-3.11
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/jeepney-0.8.0/.pyproject-builddir-3.11
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_wheel.py /builddir/build/BUILD/jeepney-0.8.0/pyproject-wheeldir-3.11
+Processing /builddir/build/BUILD/jeepney-0.8.0
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: jeepney
+  Building wheel for jeepney (pyproject.toml): started
+  Running command Building wheel for jeepney (pyproject.toml)
+  Building wheel for jeepney (pyproject.toml): finished with status 'done'
+  Created wheel for jeepney: filename=jeepney-0.8.0-py3-none-any.whl size=48433 sha256=b30c1c38cec2e8b0fc491fa586f6b1ea3b9e97067767c46b415f736aa499d99a
+  Stored in directory: /builddir/.cache/pip/wheels/70/d1/3e/20255d7dbab6de62bf6f1a2b4fb250dec9d455aff7f0863334
+Successfully built jeepney
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.wC36Of
++ umask 022
++ cd /builddir/build/BUILD
++ '[' /builddir/build/BUILDROOT/python-jeepney-0.8.0-1.el9.x86_64 '!=' / ']'
++ rm -rf /builddir/build/BUILDROOT/python-jeepney-0.8.0-1.el9.x86_64
+++ dirname /builddir/build/BUILDROOT/python-jeepney-0.8.0-1.el9.x86_64
++ mkdir -p /builddir/build/BUILDROOT
++ mkdir /builddir/build/BUILDROOT/python-jeepney-0.8.0-1.el9.x86_64
++ cd jeepney-0.8.0
+++ ls /builddir/build/BUILD/jeepney-0.8.0/pyproject-wheeldir-3.11/jeepney-0.8.0-py3-none-any.whl
+++ xargs basename --multiple
+++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
++ specifier=jeepney==0.8.0
++ '[' -z jeepney==0.8.0 ']'
++ TMPDIR=/builddir/build/BUILD/jeepney-0.8.0/.pyproject-builddir-3.11
++ /usr/bin/python3.11 -m pip install --root /builddir/build/BUILDROOT/python-jeepney-0.8.0-1.el9.x86_64 --prefix /usr --no-deps --disable-pip-version-check --progress-bar off --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links /builddir/build/BUILD/jeepney-0.8.0/pyproject-wheeldir-3.11 jeepney==0.8.0
+Using pip 22.3.1 from /usr/lib/python3.11/site-packages/pip (python 3.11)
+Looking in links: /builddir/build/BUILD/jeepney-0.8.0/pyproject-wheeldir-3.11
+Processing ./pyproject-wheeldir-3.11/jeepney-0.8.0-py3-none-any.whl
+Installing collected packages: jeepney
+Successfully installed jeepney-0.8.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
++ '[' -d /builddir/build/BUILDROOT/python-jeepney-0.8.0-1.el9.x86_64/usr/bin ']'
++ rm -f /builddir/build/BUILD/python-jeepney-0.8.0-1.el9.x86_64-3.11-pyproject-ghost-distinfo
++ site_dirs=()
++ '[' -d /builddir/build/BUILDROOT/python-jeepney-0.8.0-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ site_dirs+=("/usr/lib/python3.11/site-packages")
++ '[' /builddir/build/BUILDROOT/python-jeepney-0.8.0-1.el9.x86_64/usr/lib64/python3.11/site-packages '!=' /builddir/build/BUILDROOT/python-jeepney-0.8.0-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ '[' -d /builddir/build/BUILDROOT/python-jeepney-0.8.0-1.el9.x86_64/usr/lib64/python3.11/site-packages ']'
++ for site_dir in ${site_dirs[@]}
++ for distinfo in /builddir/build/BUILDROOT/python-jeepney-0.8.0-1.el9.x86_64$site_dir/*.dist-info
++ echo '%ghost /usr/lib/python3.11/site-packages/jeepney-0.8.0.dist-info'
++ sed -i s/pip/rpm/ /builddir/build/BUILDROOT/python-jeepney-0.8.0-1.el9.x86_64/usr/lib/python3.11/site-packages/jeepney-0.8.0.dist-info/INSTALLER
++ PYTHONPATH=/usr/lib/rpm/redhat
++ /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pyproject_preprocess_record.py --buildroot /builddir/build/BUILDROOT/python-jeepney-0.8.0-1.el9.x86_64 --record /builddir/build/BUILDROOT/python-jeepney-0.8.0-1.el9.x86_64/usr/lib/python3.11/site-packages/jeepney-0.8.0.dist-info/RECORD --output /builddir/build/BUILD/python-jeepney-0.8.0-1.el9.x86_64-3.11-pyproject-record
++ rm -fv /builddir/build/BUILDROOT/python-jeepney-0.8.0-1.el9.x86_64/usr/lib/python3.11/site-packages/jeepney-0.8.0.dist-info/RECORD
+removed '/builddir/build/BUILDROOT/python-jeepney-0.8.0-1.el9.x86_64/usr/lib/python3.11/site-packages/jeepney-0.8.0.dist-info/RECORD'
++ rm -fv /builddir/build/BUILDROOT/python-jeepney-0.8.0-1.el9.x86_64/usr/lib/python3.11/site-packages/jeepney-0.8.0.dist-info/REQUESTED
+removed '/builddir/build/BUILDROOT/python-jeepney-0.8.0-1.el9.x86_64/usr/lib/python3.11/site-packages/jeepney-0.8.0.dist-info/REQUESTED'
+++ wc -l /builddir/build/BUILD/python-jeepney-0.8.0-1.el9.x86_64-3.11-pyproject-ghost-distinfo
+++ cut -f1 '-d '
++ lines=1
++ '[' 1 -ne 1 ']'
++ RPM_PERCENTAGES_COUNT=8
++ /usr/bin/python3.11 /usr/lib/rpm/redhat/pyproject_save_files.py --output-files /builddir/build/BUILD/python-jeepney-0.8.0-1.el9.x86_64-3.11-pyproject-files --output-modules /builddir/build/BUILD/python-jeepney-0.8.0-1.el9.x86_64-3.11-pyproject-modules --buildroot /builddir/build/BUILDROOT/python-jeepney-0.8.0-1.el9.x86_64 --sitelib /usr/lib/python3.11/site-packages --sitearch /usr/lib64/python3.11/site-packages --python-version 3.11 --pyproject-record /builddir/build/BUILD/python-jeepney-0.8.0-1.el9.x86_64-3.11-pyproject-record --prefix /usr '*' +auto
++ /usr/bin/find-debuginfo -j4 --strict-build-id -m -i --build-id-seed 0.8.0-1.el9 --unique-debug-suffix -0.8.0-1.el9.x86_64 --unique-debug-src-base python-jeepney-0.8.0-1.el9.x86_64 --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 --remove-section .gnu.build.attributes -S debugsourcefiles.list /builddir/build/BUILD/jeepney-0.8.0
+find: 'debug': No such file or directory
++ /usr/lib/rpm/check-buildroot
++ /usr/lib/rpm/redhat/brp-ldconfig
++ /usr/lib/rpm/brp-compress
++ /usr/lib/rpm/redhat/brp-strip-lto /usr/bin/strip
++ /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
++ /usr/lib/rpm/redhat/brp-python-bytecompile '' 1 0
+Bytecompiling .py files below /builddir/build/BUILDROOT/python-jeepney-0.8.0-1.el9.x86_64/usr/lib/python3.11 using python3.11
++ /usr/lib/rpm/brp-python-hardlink
++ /usr/lib/rpm/redhat/brp-mangle-shebangs
+Processing files: python3.11-jeepney-0.8.0-1.el9.noarch
+Provides: python3.11-jeepney = 0.8.0-1.el9 python3.11dist(jeepney) = 0.8
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PartialHardlinkSets) <= 4.0.4-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires: python(abi) = 3.11
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/python-jeepney-0.8.0-1.el9.x86_64
+Wrote: /builddir/build/SRPMS/python-jeepney-0.8.0-1.el9.src.rpm
+Wrote: /builddir/build/RPMS/python3.11-jeepney-0.8.0-1.el9.noarch.rpm
 Finish: rpmbuild python-jeepney-0.8.0-1.el9.src.rpm
 Finish: build phase for python-jeepney-0.8.0-1.el9.src.rpm
-ERROR: Exception(/opt/minarca-rpm/rpmbuilds/6.0.0b3/SRPMS/python-jeepney-0.8.0-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 27 seconds
+INFO: Done(/opt/minarca-rpm/rpmbuilds/6.0.0b3/SRPMS/python-jeepney-0.8.0-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 23 seconds
 INFO: Results and/or logs in: /opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS-TMP/
-ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M e2ce66840c794228a3b0d3d01b481c44 -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.1a6js2zs:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-jeepney-0.8.0-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
-No matches found for the following disable plugin patterns: local, spacewalk, versionlock
-Updating Subscription Management repositories.
-Unable to read consumer identity
-
-This system is not registered with an entitlement server. You can use subscription-manager to register.
-
-/opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/                                                                                                                                                                                                                                                                   2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                                                                                                                                                                                                                                           17 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                                                                                                                                                                                                                                        17 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                                                                                                                                          21 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                                                                                                              67 kB/s |  42 kB     00:00    
-Package python3.11-flit-core-3.9.0-4.el9.noarch is already installed.
-Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
-Package python3.11-devel-3.11.7-1.el9_4.1.x86_64 is already installed.
-Package python3.11-devel-3.11.7-1.el9_4.1.x86_64 is already installed.
-No matching package to install: 'python3.11dist(async-timeout)'
-Package python3.11-packaging-24.1-1.el9.noarch is already installed.
-Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
-No matching package to install: 'python3.11dist(pytest-asyncio) >= 0.17'
-No matching package to install: 'python3.11dist(pytest-trio)'
-No matching package to install: 'python3.11dist(trio)'
-Not all dependencies satisfied
-Error: Some packages could not be found.
-
+Finish: run
 Directory walk started
-Directory walk done - 40 packages
+Directory walk done - 41 packages
 Temporary output repo path: /opt/minarca-rpm/rpmbuilds/6.0.0b3/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)
