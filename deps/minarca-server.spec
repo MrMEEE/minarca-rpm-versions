@@ -14,6 +14,7 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Prefix: %{_prefix}
 BuildArch: noarch
 Vendor: IKUS Software inc. <support@ikus-soft.com>
+BuildRequires: python$PYTHONBUILD python$PYTHONBUILD-devel
 Url: https://minarca.org/
 
 %description
