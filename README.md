@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-more-itertools-10.3.0-1.el9.src.rpm
+The lastest package built was python-secretstorage-3.3.3-1.el9.src.rpm
 
-The build completed at Fri Jun 28 08:26:53 PM CEST 2024
+The build completed at Fri Jun 28 08:27:33 PM CEST 2024
 
 The build was successful.
 
-[Build Log](logs/python-more-itertools-10.3.0-1.el9.src.rpm.log)
+[Build Log](logs/python-secretstorage-3.3.3-1.el9.src.rpm.log)
 ## Package build status for version: 6.0.0b3
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -48,7 +48,7 @@ python3.11-rapidfuzz-3.9.3-1.el9 | python-rapidfuzz-3.9.3-1.el9.src.rpm | Built 
 python3.11-requests-toolbelt-1.0.0-1.el9 | python-requests-toolbelt-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-requests-toolbelt-1.0.0-1.el9.src.rpm.log)
 python3.11-scikit-build-0.17.6-1.el9 | python-scikit-build-0.17.6-1.el9.src.rpm | Built | [Log](logs/python-scikit-build-0.17.6-1.el9.src.rpm.log)
 python3.11-scikit-build-core-0.9.7-1.el9 | python-scikit-build-core-0.9.7-1.el9.src.rpm | Built | [Log](logs/python-scikit-build-core-0.9.7-1.el9.src.rpm.log)
-python3.11-secretstorage-3.3.3-1.el9 | python-secretstorage-3.3.3-1.el9.src.rpm | **Missing** |
+python3.11-secretstorage-3.3.3-1.el9 | python-secretstorage-3.3.3-1.el9.src.rpm | Built | [Log](logs/python-secretstorage-3.3.3-1.el9.src.rpm.log)
 python3.11-setuptools-scm-8.1.0-1.el9 | python-setuptools-scm-8.1.0-1.el9.src.rpm | Built | [Log](logs/python-setuptools-scm-8.1.0-1.el9.src.rpm.log)
 python3.11-shellingham-1.5.4-1.el9 | python-shellingham-1.5.4-1.el9.src.rpm | Built | [Log](logs/python-shellingham-1.5.4-1.el9.src.rpm.log)
 python3.11-tomlkit-0.12.5-1.el9 | python-tomlkit-0.12.5-1.el9.src.rpm | Built | [Log](logs/python-tomlkit-0.12.5-1.el9.src.rpm.log)
@@ -56,4 +56,4 @@ python3.11-trove-classifiers-2024.5.22-1.el9 | python-trove-classifiers-2024.5.2
 python3.11-virtualenv-20.26.3-1.el9 | python-virtualenv-20.26.3-1.el9.src.rpm | **Missing** | [Log](logs/python-virtualenv-20.26.3-1.el9.src.rpm.log)
 python3.11-zipp-3.19.2-1.el9 | python-zipp-3.19.2-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.19.2-1.el9.src.rpm.log)
 
-46 total packages, 37 packages built successfully, 9 packages left to fix
+46 total packages, 38 packages built successfully, 8 packages left to fix
