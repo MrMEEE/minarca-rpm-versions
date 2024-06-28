@@ -45,3 +45,4 @@ jeepney
 secretstorage
 zipp
 more-itertools
+backports-tarfile
