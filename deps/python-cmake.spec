@@ -14,7 +14,7 @@ Source:         %{pypi_source cmake}
 
 BuildArch:      noarch
 
-BuildRequires:  python%{python3_pkgversion}-devel cmake ninja-build gcc gcc-c++
+BuildRequires:  python%{python3_pkgversion}-devel cmake ninja-build gcc gcc-c++ openssl-devel
 
 
 # Fill in the actual package description to submit package to Fedora
