@@ -12,7 +12,7 @@ License:        gpl
 URL:            https://cmake.org
 Source:         %{pypi_source cmake}
 
-BuildArch:      noarch
+BuildArch:      x86_64
 
 BuildRequires:  python%{python3_pkgversion}-devel cmake ninja-build gcc gcc-c++ openssl-devel
 
