@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-rapidfuzz-3.9.3-1.el9.src.rpm
+The lastest package built was python-scikit-build-0.17.6-1.el9.src.rpm
 
-The build completed at Fri Jun 28 02:15:58 PM CEST 2024
+The build completed at Fri Jun 28 02:16:23 PM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-rapidfuzz-3.9.3-1.el9.src.rpm.log)
+[Build Log](logs/python-scikit-build-0.17.6-1.el9.src.rpm.log)
 ## Package build status for version: 6.0.0b3
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -35,7 +35,7 @@ python3.11-ptyprocess-0.7.0-1.el9 | python-ptyprocess-0.7.0-1.el9.src.rpm | Buil
 python3.11-pyproject-hooks-1.1.0-1.el9 | python-pyproject-hooks-1.1.0-1.el9.src.rpm | Built | [Log](logs/python-pyproject-hooks-1.1.0-1.el9.src.rpm.log)
 python3.11-rapidfuzz-3.9.3-1.el9 | python-rapidfuzz-3.9.3-1.el9.src.rpm | **Missing** | [Log](logs/python-rapidfuzz-3.9.3-1.el9.src.rpm.log)
 python3.11-requests-toolbelt-1.0.0-1.el9 | python-requests-toolbelt-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-requests-toolbelt-1.0.0-1.el9.src.rpm.log)
-python3.11-scikit-build-0.17.6-1.el9 | python-scikit-build-0.17.6-1.el9.src.rpm | **Missing** |
+python3.11-scikit-build-0.17.6-1.el9 | python-scikit-build-0.17.6-1.el9.src.rpm | **Missing** | [Log](logs/python-scikit-build-0.17.6-1.el9.src.rpm.log)
 python3.11-setuptools-scm-8.1.0-1.el9 | python-setuptools-scm-8.1.0-1.el9.src.rpm | Built | [Log](logs/python-setuptools-scm-8.1.0-1.el9.src.rpm.log)
 python3.11-shellingham-1.5.4-1.el9 | python-shellingham-1.5.4-1.el9.src.rpm | Built | [Log](logs/python-shellingham-1.5.4-1.el9.src.rpm.log)
 python3.11-tomlkit-0.12.5-1.el9 | python-tomlkit-0.12.5-1.el9.src.rpm | Built | [Log](logs/python-tomlkit-0.12.5-1.el9.src.rpm.log)
